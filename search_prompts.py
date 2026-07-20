@@ -59,7 +59,7 @@ def search_prompts(query=None, domain=None, subcat=None):
 def main():
     parser = argparse.ArgumentParser(description="Search prompt repository.")
     parser.add_argument("query", nargs="?", help="Keyword search across prompt title, summary, or artifact")
-    parser.add_argument("--domain", choices=["android", "software-engineering", "worldbuilding"], help="Filter by domain")
+    parser.add_argument("--domain", choices=["academic-research", "android", "autobiography", "custom-ai", "data-analytics", "devops-sre", "game-development", "image-generation", "legal-compliance", "music-generation", "pedagogy-learning", "product-venture", "safetensor-fine-tuning", "software-engineering", "video-generation", "worldbuilding"], help="Filter by domain")
     parser.add_argument("--subcat", help="Filter by subcategory")
 
     args = parser.parse_args()

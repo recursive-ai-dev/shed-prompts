@@ -4,15 +4,34 @@ This module contains generalized software engineering, architecture, operations,
 
 ---
 
+<a id="top"></a>
+## 📋 Table of Contents
+- [📁 Subcategories & Prompts](#-subcategories--prompts)
+  - [🏛️ Architecture & Refactoring (`architecture/`)](#subcat-architecture) ([`📁 architecture/`](file:///home/sysadmin/Downloads/shed-prompts/software-engineering/architecture/))
+  - [🔒 Quality & Security (`quality-security/`)](#subcat-quality-security) ([`📁 quality-security/`](file:///home/sysadmin/Downloads/shed-prompts/software-engineering/quality-security/))
+  - [🚀 Ops & Performance (`ops-performance/`)](#subcat-ops-performance) ([`📁 ops-performance/`](file:///home/sysadmin/Downloads/shed-prompts/software-engineering/ops-performance/))
+  - [💡 Product & Strategy (`product-strategy/`)](#subcat-product-strategy) ([`📁 product-strategy/`](file:///home/sysadmin/Downloads/shed-prompts/software-engineering/product-strategy/))
+- [⚡ Recommended Engineering Pipeline](#pipeline)
+
+---
+
+
 ## 📁 Subcategories & Prompts
 
+<a id="subcat-architecture"></a>
 ### 🏛️ Architecture & Refactoring (`architecture/`)
 | Prompt | Target Artifact | Description |
 |---|---|---|
+| [`git-repo-health-audit.md`](file:///home/sysadmin/Downloads/shed-prompts/software-engineering/architecture/git-repo-health-audit.md) | `GIT_REPO_HEALTH_AUDIT.md` | Autonomous git codebase health, architectural debt, and test coverage gap auditor with automated remediation roadmap. |
 | [`migration.md`](file:///home/sysadmin/Downloads/shed-prompts/software-engineering/architecture/migration.md) | `MIGRATION.md` | Major framework/language/runtime upgrades and breaking API contract migrations. |
 | [`modularize.md`](file:///home/sysadmin/Downloads/shed-prompts/software-engineering/architecture/modularize.md) | `MODULARIZE.md` | Decomposing monolithic files or bloated modules into clean, decoupled packages. |
 | [`schema.md`](file:///home/sysadmin/Downloads/shed-prompts/software-engineering/architecture/schema.md) | `SCHEMA_MIGRATION.md` | Zero-downtime database schema evolutions, shadow tables, and DDL migrations. |
 
+
+[⬆ Back to Top](#top)
+
+---
+<a id="subcat-quality-security"></a>
 ### 🔒 Quality & Security (`quality-security/`)
 | Prompt | Target Artifact | Description |
 |---|---|---|
@@ -23,6 +42,11 @@ This module contains generalized software engineering, architecture, operations,
 | [`review.md`](file:///home/sysadmin/Downloads/shed-prompts/software-engineering/quality-security/review.md) | PR Feedback | Senior staff code review for pull requests and code diffs. |
 | [`security.md`](file:///home/sysadmin/Downloads/shed-prompts/software-engineering/quality-security/security.md) | `SECURITY.md` | AppSec audit targeting injection, AuthN/AuthZ, secrets exposure, and CORS. |
 
+
+[⬆ Back to Top](#top)
+
+---
+<a id="subcat-ops-performance"></a>
 ### 🚀 Ops & Performance (`ops-performance/`)
 | Prompt | Target Artifact | Description |
 |---|---|---|
@@ -34,6 +58,11 @@ This module contains generalized software engineering, architecture, operations,
 | [`postmortem.md`](file:///home/sysadmin/Downloads/shed-prompts/software-engineering/ops-performance/postmortem.md) | `POSTMORTEM.md` | Blameless production incident postmortem with root cause analysis. |
 | [`testing.md`](file:///home/sysadmin/Downloads/shed-prompts/software-engineering/ops-performance/testing.md) | Test Suite | Expanding unit, integration, and e2e test suites for regression prevention. |
 
+
+[⬆ Back to Top](#top)
+
+---
+<a id="subcat-product-strategy"></a>
 ### 💡 Product & Strategy (`product-strategy/`)
 | Prompt | Target Artifact | Description |
 |---|---|---|
@@ -44,6 +73,11 @@ This module contains generalized software engineering, architecture, operations,
 
 ---
 
+
+[⬆ Back to Top](#top)
+
+---
+<a id="pipeline"></a>
 ## ⚡ Recommended Engineering Pipeline
 
 ```mermaid
@@ -55,3 +89,5 @@ graph TD
     E --> F["testing.md"]
     F --> G["bundle.md"]
 ```
+
+[⬆ Back to Top](#top)

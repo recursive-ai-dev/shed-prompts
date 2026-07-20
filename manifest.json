@@ -1,5 +1,45 @@
 [
   {
+    "id": "a11y",
+    "legacy_filename": "A11Y-PROMPT.md",
+    "new_path": "software-engineering/quality-security/a11y.md",
+    "domain": "software-engineering",
+    "subcategory": "quality-security",
+    "summary": "You are an Accessibility Engineer performing a WCAG 2",
+    "output_artifact": "A11Y.md",
+    "size_bytes": 3167
+  },
+  {
+    "id": "ab-test",
+    "legacy_filename": "AB-TEST-PROMPT.md",
+    "new_path": "data-analytics/experimentation/ab-test.md",
+    "domain": "data-analytics",
+    "subcategory": "experimentation",
+    "summary": "You are an Experimentation Scientist designing powered A/B tests and analyzing results",
+    "output_artifact": "EXPERIMENT.md",
+    "size_bytes": 2929
+  },
+  {
+    "id": "ai-act-conformance",
+    "legacy_filename": "AI-ACT-CONFORMANCE-PROMPT.md",
+    "new_path": "legal-compliance/privacy-compliance/ai-act-conformance.md",
+    "domain": "legal-compliance",
+    "subcategory": "privacy-compliance",
+    "summary": "You are an AI Governance Engineer assessing an AI system against the EU AI Act risk tiers and obligations",
+    "output_artifact": "AI_ACT_CONFORMANCE.md",
+    "size_bytes": 2578
+  },
+  {
+    "id": "analytics",
+    "legacy_filename": "ANALYTICS-PROMPT.md",
+    "new_path": "data-analytics/analytics-engineering/analytics.md",
+    "domain": "data-analytics",
+    "subcategory": "analytics-engineering",
+    "summary": "You are an Analytics Engineer performing an event-tracking audit and building a consolidated tracking plan for this codebase",
+    "output_artifact": "ANALYTICS.md",
+    "size_bytes": 3049
+  },
+  {
     "id": "android-a11y",
     "legacy_filename": "ANDROID-A11Y-PROMPT.md",
     "new_path": "android/quality-security/android-a11y.md",
@@ -28,6 +68,16 @@
     "summary": "You are a Lead Android Engineer performing a strict, read-only code quality audit of an Android codebase (Kotlin/Java, Gradle)",
     "output_artifact": "ANDROID_AUDIT.md",
     "size_bytes": 3489
+  },
+  {
+    "id": "android-compose-migration-audit",
+    "legacy_filename": "ANDROID-COMPOSE-MIGRATION-AUDIT-PROMPT.md",
+    "new_path": "android/architecture-refactoring/android-compose-migration-audit.md",
+    "domain": "android",
+    "subcategory": "architecture-refactoring",
+    "summary": "Autonomous static audit & jetpack compose refactoring blueprint for legacy Android XML layouts and views",
+    "output_artifact": "ANDROID_COMPOSE_MIGRATION_AUDIT.md",
+    "size_bytes": 4699
   },
   {
     "id": "android-dependency",
@@ -120,24 +170,64 @@
     "size_bytes": 3833
   },
   {
-    "id": "a11y",
-    "legacy_filename": "A11Y-PROMPT.md",
-    "new_path": "software-engineering/quality-security/a11y.md",
-    "domain": "software-engineering",
-    "subcategory": "quality-security",
-    "summary": "You are an Accessibility Engineer performing a WCAG 2",
-    "output_artifact": "A11Y.md",
-    "size_bytes": 3167
+    "id": "animatediff-pipeline",
+    "legacy_filename": "ANIMATEDIFF-PIPELINE-PROMPT.md",
+    "new_path": "video-generation/text-to-video/animatediff-pipeline.md",
+    "domain": "video-generation",
+    "subcategory": "text-to-video",
+    "summary": "You are an AnimateDiff & Motion Module Engineer constructing AnimateDiff motion adapter pipelines with prompt travel keyframing",
+    "output_artifact": "ANIMATEDIFF_NOTEBOOK.ipynb",
+    "size_bytes": 4146
   },
   {
-    "id": "audit-implementation",
-    "legacy_filename": "AUDIT-IMPLEMENTATION-PROMPT.md",
-    "new_path": "software-engineering/quality-security/audit-implementation.md",
+    "id": "anki-fact-extractor",
+    "legacy_filename": "ANKI-FACT-EXTRACTOR-PROMPT.md",
+    "new_path": "pedagogy-learning/flashcard-systems/anki-fact-extractor.md",
+    "domain": "pedagogy-learning",
+    "subcategory": "flashcard-systems",
+    "summary": "Extracting high-yield atomic facts from textbooks or papers and formatting them into optimal double-sided Anki cards with cloze deletions",
+    "output_artifact": "ANKI_FLASHCARDS.md",
+    "size_bytes": 3245
+  },
+  {
+    "id": "api-docs",
+    "legacy_filename": "API-DOCS-PROMPT.md",
+    "new_path": "software-engineering/ops-performance/api-docs.md",
     "domain": "software-engineering",
-    "subcategory": "quality-security",
-    "summary": "You are a Principal Software Engineer executing a rigorous code implementation run",
+    "subcategory": "ops-performance",
+    "summary": "You are a Technical Writer generating OpenAPI and reference docs from real endpoints",
+    "output_artifact": "API_DOCS.md",
+    "size_bytes": 2592
+  },
+  {
+    "id": "artifact",
+    "legacy_filename": "ARTIFACT-PROMPT.md",
+    "new_path": "worldbuilding/lore-systems/artifact.md",
+    "domain": "worldbuilding",
+    "subcategory": "lore-systems",
+    "summary": "You are an expert worldbuilder and antiquarian for a Brutal Dark Medieval Fantasy RPG",
     "output_artifact": "N/A",
-    "size_bytes": 2165
+    "size_bytes": 5231
+  },
+  {
+    "id": "artifact-signing-provenance",
+    "legacy_filename": "ARTIFACT-SIGNING-PROVENANCE-PROMPT.md",
+    "new_path": "devops-sre/pipeline-automation/artifact-signing-provenance.md",
+    "domain": "devops-sre",
+    "subcategory": "pipeline-automation",
+    "summary": "Automated container & binary artifact signing, Cosign verification, and SLSA provenance attestation architecture",
+    "output_artifact": "ARTIFACT_SIGNING_PROVENANCE.md",
+    "size_bytes": 4864
+  },
+  {
+    "id": "audioldm-stem-pipeline",
+    "legacy_filename": "AUDIOLDM-STEM-PIPELINE-PROMPT.md",
+    "new_path": "music-generation/audio-diffusion-stem/audioldm-stem-pipeline.md",
+    "domain": "music-generation",
+    "subcategory": "audio-diffusion-stem",
+    "summary": "You are a Sound Design & Audio Engineer implementing AudioLDM 2 soundscape diffusion and Demucs stem separation pipelines",
+    "output_artifact": "AUDIOLDM_STEM_NOTEBOOK.ipynb",
+    "size_bytes": 3984
   },
   {
     "id": "audit",
@@ -150,6 +240,216 @@
     "size_bytes": 1960
   },
   {
+    "id": "audit-implementation",
+    "legacy_filename": "AUDIT-IMPLEMENTATION-PROMPT.md",
+    "new_path": "software-engineering/quality-security/audit-implementation.md",
+    "domain": "software-engineering",
+    "subcategory": "quality-security",
+    "summary": "You are a Principal Software Engineer executing a rigorous code implementation run",
+    "output_artifact": "N/A",
+    "size_bytes": 2969
+  },
+  {
+    "id": "autobiography-adversity-resilience",
+    "legacy_filename": "AUTOBIOGRAPHY-ADVERSITY-RESILIENCE-PROMPT.md",
+    "new_path": "autobiography/thematics-refinement/autobiography-adversity-resilience.md",
+    "domain": "autobiography",
+    "subcategory": "thematics-refinement",
+    "summary": "Deep exploration of hardship, grief, illness, vulnerability, and hard-won strength",
+    "output_artifact": "AUTOBIOGRAPHY_ADVERSITY_RESILIENCE.md",
+    "size_bytes": 2255
+  },
+  {
+    "id": "autobiography-ancestry-roots",
+    "legacy_filename": "AUTOBIOGRAPHY-ANCESTRY-ROOTS-PROMPT.md",
+    "new_path": "autobiography/life-stages/autobiography-ancestry-roots.md",
+    "domain": "autobiography",
+    "subcategory": "life-stages",
+    "summary": "Ancestral heritage, family lineage, cultural roots, and childhood environment dossier",
+    "output_artifact": "AUTOBIOGRAPHY_ANCESTRY_ROOTS.md",
+    "size_bytes": 2569
+  },
+  {
+    "id": "autobiography-career-vocation",
+    "legacy_filename": "AUTOBIOGRAPHY-CAREER-VOCATION-PROMPT.md",
+    "new_path": "autobiography/life-stages/autobiography-career-vocation.md",
+    "domain": "autobiography",
+    "subcategory": "life-stages",
+    "summary": "Professional journey, tradecraft mastery, leadership, career peaks, and setbacks",
+    "output_artifact": "AUTOBIOGRAPHY_CAREER_VOCATION.md",
+    "size_bytes": 2383
+  },
+  {
+    "id": "autobiography-chapter-writer",
+    "legacy_filename": "AUTOBIOGRAPHY-CHAPTER-WRITER-PROMPT.md",
+    "new_path": "autobiography/crafting-polishing/autobiography-chapter-writer.md",
+    "domain": "autobiography",
+    "subcategory": "crafting-polishing",
+    "summary": "Full chapter prose composition synthesizing interview notes into rich narrative arc",
+    "output_artifact": "AUTOBIOGRAPHY_CHAPTER.md",
+    "size_bytes": 2576
+  },
+  {
+    "id": "autobiography-chronology-audit",
+    "legacy_filename": "AUTOBIOGRAPHY-CHRONOLOGY-AUDIT-PROMPT.md",
+    "new_path": "autobiography/crafting-polishing/autobiography-chronology-audit.md",
+    "domain": "autobiography",
+    "subcategory": "crafting-polishing",
+    "summary": "Read-only timeline, age/date verification, fact-checking, and continuity audit",
+    "output_artifact": "AUTOBIOGRAPHY_CHRONOLOGY_AUDIT.md",
+    "size_bytes": 2769
+  },
+  {
+    "id": "autobiography-formative-years",
+    "legacy_filename": "AUTOBIOGRAPHY-FORMATIVE-YEARS-PROMPT.md",
+    "new_path": "autobiography/life-stages/autobiography-formative-years.md",
+    "domain": "autobiography",
+    "subcategory": "life-stages",
+    "summary": "Youth, adolescence, education, coming of age, and early identity formation",
+    "output_artifact": "AUTOBIOGRAPHY_FORMATIVE_YEARS.md",
+    "size_bytes": 2302
+  },
+  {
+    "id": "autobiography-interview",
+    "legacy_filename": "AUTOBIOGRAPHY-INTERVIEW-PROMPT.md",
+    "new_path": "autobiography/foundation-discovery/autobiography-interview.md",
+    "domain": "autobiography",
+    "subcategory": "foundation-discovery",
+    "summary": "Empathetic oral history & life interview sessions with structured QA and memory extraction",
+    "output_artifact": "AUTOBIOGRAPHY_INTERVIEW.md",
+    "size_bytes": 3245
+  },
+  {
+    "id": "autobiography-legacy-reflections",
+    "legacy_filename": "AUTOBIOGRAPHY-LEGACY-REFLECTIONS-PROMPT.md",
+    "new_path": "autobiography/thematics-refinement/autobiography-legacy-reflections.md",
+    "domain": "autobiography",
+    "subcategory": "thematics-refinement",
+    "summary": "Present-day reflections, letter to future generations, epilogue vision, and gratitude",
+    "output_artifact": "AUTOBIOGRAPHY_LEGACY_REFLECTIONS.md",
+    "size_bytes": 2349
+  },
+  {
+    "id": "autobiography-manuscript-assembly",
+    "legacy_filename": "AUTOBIOGRAPHY-MANUSCRIPT-ASSEMBLY-PROMPT.md",
+    "new_path": "autobiography/crafting-polishing/autobiography-manuscript-assembly.md",
+    "domain": "autobiography",
+    "subcategory": "crafting-polishing",
+    "summary": "Full manuscript compilation, front/back matter, photo index, and production readiness",
+    "output_artifact": "AUTOBIOGRAPHY_MANUSCRIPT_ASSEMBLY.md",
+    "size_bytes": 2634
+  },
+  {
+    "id": "autobiography-memory-retrieval",
+    "legacy_filename": "AUTOBIOGRAPHY-MEMORY-RETRIEVAL-PROMPT.md",
+    "new_path": "autobiography/thematics-refinement/autobiography-memory-retrieval.md",
+    "domain": "autobiography",
+    "subcategory": "thematics-refinement",
+    "summary": "Sensory memory elicitation technique restoring sights, sounds, smells, and somatic feel",
+    "output_artifact": "AUTOBIOGRAPHY_MEMORY_RETRIEVAL.md",
+    "size_bytes": 2264
+  },
+  {
+    "id": "autobiography-narrative-arc",
+    "legacy_filename": "AUTOBIOGRAPHY-NARRATIVE-ARC-PROMPT.md",
+    "new_path": "autobiography/foundation-discovery/autobiography-narrative-arc.md",
+    "domain": "autobiography",
+    "subcategory": "foundation-discovery",
+    "summary": "Master macro life narrative blueprint, themes, motifs, and act/chapter outline",
+    "output_artifact": "AUTOBIOGRAPHY_NARRATIVE_ARC.md",
+    "size_bytes": 2905
+  },
+  {
+    "id": "autobiography-prose-polish",
+    "legacy_filename": "AUTOBIOGRAPHY-PROSE-POLISH-PROMPT.md",
+    "new_path": "autobiography/crafting-polishing/autobiography-prose-polish.md",
+    "domain": "autobiography",
+    "subcategory": "crafting-polishing",
+    "summary": "Line editing, sensory enhancement, pacing, rhythm, and stylistic refinement",
+    "output_artifact": "AUTOBIOGRAPHY_PROSE_POLISH.md",
+    "size_bytes": 2215
+  },
+  {
+    "id": "autobiography-relationships-family",
+    "legacy_filename": "AUTOBIOGRAPHY-RELATIONSHIPS-FAMILY-PROMPT.md",
+    "new_path": "autobiography/life-stages/autobiography-relationships-family.md",
+    "domain": "autobiography",
+    "subcategory": "life-stages",
+    "summary": "Character portraits of partners, family, mentors, friends, and interpersonal dynamics",
+    "output_artifact": "AUTOBIOGRAPHY_RELATIONSHIPS_FAMILY.md",
+    "size_bytes": 2459
+  },
+  {
+    "id": "autobiography-theme-extractor",
+    "legacy_filename": "AUTOBIOGRAPHY-THEME-EXTRACTOR-PROMPT.md",
+    "new_path": "autobiography/crafting-polishing/autobiography-theme-extractor.md",
+    "domain": "autobiography",
+    "subcategory": "crafting-polishing",
+    "summary": "Autonomous motif and emotional theme extractor across memoir chapters, transcripts, and personal notes",
+    "output_artifact": "AUTOBIOGRAPHY_THEME_INDEX.md",
+    "size_bytes": 4763
+  },
+  {
+    "id": "autobiography-turning-points",
+    "legacy_filename": "AUTOBIOGRAPHY-TURNING-POINTS-PROMPT.md",
+    "new_path": "autobiography/life-stages/autobiography-turning-points.md",
+    "domain": "autobiography",
+    "subcategory": "life-stages",
+    "summary": "Watershed moments, crises, crossroads decisions, and transformational shifts",
+    "output_artifact": "AUTOBIOGRAPHY_TURNING_POINTS.md",
+    "size_bytes": 2477
+  },
+  {
+    "id": "autobiography-values-philosophy",
+    "legacy_filename": "AUTOBIOGRAPHY-VALUES-PHILOSOPHY-PROMPT.md",
+    "new_path": "autobiography/thematics-refinement/autobiography-values-philosophy.md",
+    "domain": "autobiography",
+    "subcategory": "thematics-refinement",
+    "summary": "Articulating personal philosophy, core values codex, and tested rules for living",
+    "output_artifact": "AUTOBIOGRAPHY_VALUES_PHILOSOPHY.md",
+    "size_bytes": 2329
+  },
+  {
+    "id": "autobiography-voice-tone",
+    "legacy_filename": "AUTOBIOGRAPHY-VOICE-TONE-PROMPT.md",
+    "new_path": "autobiography/foundation-discovery/autobiography-voice-tone.md",
+    "domain": "autobiography",
+    "subcategory": "foundation-discovery",
+    "summary": "Defining author narrative voice, cadence, vocabulary, and linguistic style guide",
+    "output_artifact": "AUTOBIOGRAPHY_VOICE_TONE.md",
+    "size_bytes": 2868
+  },
+  {
+    "id": "bestiary",
+    "legacy_filename": "BESTIARY-PROMPT.md",
+    "new_path": "worldbuilding/entities/bestiary.md",
+    "domain": "worldbuilding",
+    "subcategory": "entities",
+    "summary": "You are an expert worldbuilder and field naturalist for a Brutal Dark Medieval Fantasy RPG",
+    "output_artifact": "N/A",
+    "size_bytes": 5023
+  },
+  {
+    "id": "beta-feedback-loop",
+    "legacy_filename": "BETA-FEEDBACK-LOOP-PROMPT.md",
+    "new_path": "product-venture/gtm-launch/beta-feedback-loop.md",
+    "domain": "product-venture",
+    "subcategory": "gtm-launch",
+    "summary": "Autonomous beta program design with feedback triage matrix, synthesis loop, and GA exit criteria",
+    "output_artifact": "BETA_FEEDBACK_LOOP.md",
+    "size_bytes": 2669
+  },
+  {
+    "id": "bloodline",
+    "legacy_filename": "BLOODLINE-PROMPT.md",
+    "new_path": "worldbuilding/factions-beliefs/bloodline.md",
+    "domain": "worldbuilding",
+    "subcategory": "factions-beliefs",
+    "summary": "You are an expert worldbuilder and genealogical historian for a Brutal Dark Medieval Fantasy RPG",
+    "output_artifact": "N/A",
+    "size_bytes": 5339
+  },
+  {
     "id": "bundle",
     "legacy_filename": "BUNDLE-PROMPT.md",
     "new_path": "software-engineering/ops-performance/bundle.md",
@@ -158,6 +458,26 @@
     "summary": "You are a Lead Release Engineer",
     "output_artifact": "RELEASE.md",
     "size_bytes": 5288
+  },
+  {
+    "id": "cac-ltv-payback",
+    "legacy_filename": "CAC-LTV-PAYBACK-PROMPT.md",
+    "new_path": "product-venture/monetization-pricing/cac-ltv-payback.md",
+    "domain": "product-venture",
+    "subcategory": "monetization-pricing",
+    "summary": "Autonomous CAC/LTV computation, payback period, and churn sensitivity analysis for SaaS unit economics",
+    "output_artifact": "CAC_LTV_PAYBACK.md",
+    "size_bytes": 2758
+  },
+  {
+    "id": "canary-deployment-strategy",
+    "legacy_filename": "CANARY-DEPLOYMENT-STRATEGY-PROMPT.md",
+    "new_path": "devops-sre/pipeline-automation/canary-deployment-strategy.md",
+    "domain": "devops-sre",
+    "subcategory": "pipeline-automation",
+    "summary": "Zero-downtime canary and progressive traffic shifting deployment strategy with automated rollback metrics",
+    "output_artifact": "CANARY_DEPLOYMENT_STRATEGY.md",
+    "size_bytes": 5548
   },
   {
     "id": "changelog",
@@ -170,6 +490,256 @@
     "size_bytes": 2699
   },
   {
+    "id": "chaos-engineering-plan",
+    "legacy_filename": "CHAOS-ENGINEERING-PLAN-PROMPT.md",
+    "new_path": "devops-sre/resilience-recovery/chaos-engineering-plan.md",
+    "domain": "devops-sre",
+    "subcategory": "resilience-recovery",
+    "summary": "Chaos engineering experiment design, blast radius control, fault injection hypothesis, and steady-state validation",
+    "output_artifact": "CHAOS_ENGINEERING_PLAN.md",
+    "size_bytes": 4781
+  },
+  {
+    "id": "character",
+    "legacy_filename": "CHARACTER-PROMPT.md",
+    "new_path": "worldbuilding/entities/character.md",
+    "domain": "worldbuilding",
+    "subcategory": "entities",
+    "summary": "You are an expert worldbuilder and narrative designer for a Brutal Dark Medieval Fantasy RPG",
+    "output_artifact": "N/A",
+    "size_bytes": 3385
+  },
+  {
+    "id": "charting",
+    "legacy_filename": "CHARTING-PROMPT.md",
+    "new_path": "data-analytics/visualization/charting.md",
+    "domain": "data-analytics",
+    "subcategory": "visualization",
+    "summary": "You are a Data Visualization Engineer generating honest, reproducible charts from datasets",
+    "output_artifact": "CHARTS.md",
+    "size_bytes": 2813
+  },
+  {
+    "id": "cogvideox-pipeline",
+    "legacy_filename": "COGVIDEOX-PIPELINE-PROMPT.md",
+    "new_path": "video-generation/text-to-video/cogvideox-pipeline.md",
+    "domain": "video-generation",
+    "subcategory": "text-to-video",
+    "summary": "You are an Open-Source Video Synthesis Specialist building CogVideoX (2B/5B) 3D transformer text-to-video diffusers pipelines",
+    "output_artifact": "COGVIDEOX_NOTEBOOK.ipynb",
+    "size_bytes": 3957
+  },
+  {
+    "id": "contract-negotiation-playbook",
+    "legacy_filename": "CONTRACT-NEGOTIATION-PLAYBOOK-PROMPT.md",
+    "new_path": "legal-compliance/contract-risk/contract-negotiation-playbook.md",
+    "domain": "legal-compliance",
+    "subcategory": "contract-risk",
+    "summary": "You are a Senior Commercial Contracts Negotiator converting audit findings into a prioritized redline-ready playbook",
+    "output_artifact": "CONTRACT_NEGOTIATION_PLAYBOOK.md",
+    "size_bytes": 2324
+  },
+  {
+    "id": "contract-risk-deconstruction",
+    "legacy_filename": "CONTRACT-RISK-DECONSTRUCTION-PROMPT.md",
+    "new_path": "legal-compliance/contract-risk/contract-risk-deconstruction.md",
+    "domain": "legal-compliance",
+    "subcategory": "contract-risk",
+    "summary": "You are a Commercial Contracts Counsel deconstructing agreements into indemnity, liability, and termination risk tables",
+    "output_artifact": "CONTRACT_RISK_MATRIX.md",
+    "size_bytes": 2830
+  },
+  {
+    "id": "contract-termination-exit",
+    "legacy_filename": "CONTRACT-TERMINATION-EXIT-PROMPT.md",
+    "new_path": "legal-compliance/contract-risk/contract-termination-exit.md",
+    "domain": "legal-compliance",
+    "subcategory": "contract-risk",
+    "summary": "You are a Commercial Contracts Counsel auditing renewal, auto-renewal, exit penalties, and post-termination obligations",
+    "output_artifact": "CONTRACT_TERMINATION_AUDIT.md",
+    "size_bytes": 2673
+  },
+  {
+    "id": "controlnet-ipadapter-pipeline",
+    "legacy_filename": "CONTROLNET-IPADAPTER-PIPELINE-PROMPT.md",
+    "new_path": "image-generation/conditioned-generation/controlnet-ipadapter-pipeline.md",
+    "domain": "image-generation",
+    "subcategory": "conditioned-generation",
+    "summary": "You are a Conditioned Image Synthesis Specialist building ControlNet spatial control and IP-Adapter style steering diffusers pipelines",
+    "output_artifact": "CONTROLNET_IPADAPTER_NOTEBOOK.ipynb",
+    "size_bytes": 4380
+  },
+  {
+    "id": "cost",
+    "legacy_filename": "COST-PROMPT.md",
+    "new_path": "data-analytics/finops/cost.md",
+    "domain": "data-analytics",
+    "subcategory": "finops",
+    "summary": "You are a FinOps / Cloud Cost Engineer analyzing spend and recommending optimizations",
+    "output_artifact": "COST_ANALYSIS.md",
+    "size_bytes": 2628
+  },
+  {
+    "id": "curriculum-blueprint",
+    "legacy_filename": "CURRICULUM-BLUEPRINT-PROMPT.md",
+    "new_path": "pedagogy-learning/curriculum-design/curriculum-blueprint.md",
+    "domain": "pedagogy-learning",
+    "subcategory": "curriculum-design",
+    "summary": "Deconstructing dense topics into progressive 4-week mastery roadmaps using Bloom's Taxonomy and deliberate practice principles",
+    "output_artifact": "CURRICULUM_BLUEPRINT.md",
+    "size_bytes": 4846
+  },
+  {
+    "id": "custom-attention-benchmark",
+    "legacy_filename": "CUSTOM-ATTENTION-BENCHMARK-PROMPT.md",
+    "new_path": "custom-ai/model-architecture/custom-attention-benchmark.md",
+    "domain": "custom-ai",
+    "subcategory": "model-architecture",
+    "summary": "Autonomous attention-variant latency/memory/quality benchmark.",
+    "output_artifact": "CUSTOM_ATTENTION_BENCHMARK.md",
+    "size_bytes": 1838
+  },
+  {
+    "id": "custom-attention-kv-cache",
+    "legacy_filename": "CUSTOM-ATTENTION-KV-CACHE-PROMPT.md",
+    "new_path": "custom-ai/model-architecture/custom-attention-kv-cache.md",
+    "domain": "custom-ai",
+    "subcategory": "model-architecture",
+    "summary": "You are a Principal AI Systems Engineer building Multi-Head/Grouped-Query Attention, RoPE, and KV Cache mechanisms in PyTorch",
+    "output_artifact": "CUSTOM_ATTENTION_KV_CACHE_NOTEBOOK.ipynb",
+    "size_bytes": 4409
+  },
+  {
+    "id": "custom-dataset-dedup-auditor",
+    "legacy_filename": "CUSTOM-DATASET-DEDUP-AUDITOR-PROMPT.md",
+    "new_path": "custom-ai/fine-tuning-quantization/custom-dataset-dedup-auditor.md",
+    "domain": "custom-ai",
+    "subcategory": "fine-tuning-quantization",
+    "summary": "Autonomous dataset deduplication and leakage auditor.",
+    "output_artifact": "CUSTOM_DATASET_DEDUP_AUDITOR.md",
+    "size_bytes": 1769
+  },
+  {
+    "id": "custom-llm-fine-tuning-dataset-curator",
+    "legacy_filename": "CUSTOM-LLM-FINE-TUNING-DATASET-CURATOR-PROMPT.md",
+    "new_path": "custom-ai/fine-tuning-quantization/custom-llm-fine-tuning-dataset-curator.md",
+    "domain": "custom-ai",
+    "subcategory": "fine-tuning-quantization",
+    "summary": "Autonomous instruction tuning dataset curator, perplexity filter, and synthetic prompt quality auditor",
+    "output_artifact": "CUSTOM_DATASET_CURATION_REPORT.md",
+    "size_bytes": 4966
+  },
+  {
+    "id": "custom-lora-quantization",
+    "legacy_filename": "CUSTOM-LORA-QUANTIZATION-PROMPT.md",
+    "new_path": "custom-ai/fine-tuning-quantization/custom-lora-quantization.md",
+    "domain": "custom-ai",
+    "subcategory": "fine-tuning-quantization",
+    "summary": "You are a Principal Applied AI & Quantization Specialist designing custom LoRA matrix injection and 4-bit quantization pipelines",
+    "output_artifact": "CUSTOM_LORA_QUANTIZATION_NOTEBOOK.ipynb",
+    "size_bytes": 4402
+  },
+  {
+    "id": "custom-quantization-loss-analyzer",
+    "legacy_filename": "CUSTOM-QUANTIZATION-LOSS-ANALYZER-PROMPT.md",
+    "new_path": "custom-ai/fine-tuning-quantization/custom-quantization-loss-analyzer.md",
+    "domain": "custom-ai",
+    "subcategory": "fine-tuning-quantization",
+    "summary": "Autonomous quantization loss and degradation analyzer.",
+    "output_artifact": "CUSTOM_QUANTIZATION_LOSS_ANALYZER.md",
+    "size_bytes": 1853
+  },
+  {
+    "id": "custom-rag-eval-pipeline",
+    "legacy_filename": "CUSTOM-RAG-EVAL-PIPELINE-PROMPT.md",
+    "new_path": "custom-ai/rag-evaluation/custom-rag-eval-pipeline.md",
+    "domain": "custom-ai",
+    "subcategory": "rag-evaluation",
+    "summary": "You are a Lead AI Architect implementing dense/sparse hybrid RAG, Reciprocal Rank Fusion, and Ragas evaluation pipelines",
+    "output_artifact": "CUSTOM_RAG_EVAL_NOTEBOOK.ipynb",
+    "size_bytes": 4303
+  },
+  {
+    "id": "custom-rag-hallucination-auditor",
+    "legacy_filename": "CUSTOM-RAG-HALLUCINATION-AUDITOR-PROMPT.md",
+    "new_path": "custom-ai/rag-evaluation/custom-rag-hallucination-auditor.md",
+    "domain": "custom-ai",
+    "subcategory": "rag-evaluation",
+    "summary": "Autonomous RAG grounding and hallucination auditor.",
+    "output_artifact": "CUSTOM_RAG_HALLUCINATION_AUDITOR.md",
+    "size_bytes": 1939
+  },
+  {
+    "id": "custom-rag-retrieval-coverage",
+    "legacy_filename": "CUSTOM-RAG-RETRIEVAL-COVERAGE-PROMPT.md",
+    "new_path": "custom-ai/rag-evaluation/custom-rag-retrieval-coverage.md",
+    "domain": "custom-ai",
+    "subcategory": "rag-evaluation",
+    "summary": "Autonomous RAG retrieval coverage and hole auditor.",
+    "output_artifact": "CUSTOM_RAG_RETRIEVAL_COVERAGE.md",
+    "size_bytes": 1766
+  },
+  {
+    "id": "custom-transformer-swiglu",
+    "legacy_filename": "CUSTOM-TRANSFORMER-SWIGLU-PROMPT.md",
+    "new_path": "custom-ai/model-architecture/custom-transformer-swiglu.md",
+    "domain": "custom-ai",
+    "subcategory": "model-architecture",
+    "summary": "You are an Expert LLM Neural Architecture Engineer implementing SwiGLU MLP layers, RMSNorm, and decoder blocks in PyTorch",
+    "output_artifact": "CUSTOM_TRANSFORMER_SWIGLU_NOTEBOOK.ipynb",
+    "size_bytes": 4141
+  },
+  {
+    "id": "damage-formula-optimizer",
+    "legacy_filename": "DAMAGE-FORMULA-OPTIMIZER-PROMPT.md",
+    "new_path": "game-development/economy-balancing/damage-formula-optimizer.md",
+    "domain": "game-development",
+    "subcategory": "economy-balancing",
+    "summary": "You are a Combat Systems Designer deriving a transparent, monotonically-bounded damage formula with mitigation, crit, variance, and TTK solver",
+    "output_artifact": "DAMAGE_FORMULA_OPTIMIZER.md",
+    "size_bytes": 2367
+  },
+  {
+    "id": "dashboard",
+    "legacy_filename": "DASHBOARD-PROMPT.md",
+    "new_path": "data-analytics/visualization/dashboard.md",
+    "domain": "data-analytics",
+    "subcategory": "visualization",
+    "summary": "You are an Analytics / BI Engineer specifying a metrics dashboard wired to real data sources",
+    "output_artifact": "DASHBOARD.md",
+    "size_bytes": 2590
+  },
+  {
+    "id": "data-classification",
+    "legacy_filename": "DATA-CLASSIFICATION-PROMPT.md",
+    "new_path": "legal-compliance/policy-frameworks/data-classification.md",
+    "domain": "legal-compliance",
+    "subcategory": "policy-frameworks",
+    "summary": "You are a Data Governance Architect authoring data-classification tiers, handling rules, and labeling enforcement",
+    "output_artifact": "DATA_CLASSIFICATION_POLICY.md",
+    "size_bytes": 2371
+  },
+  {
+    "id": "data-quality",
+    "legacy_filename": "DATA-QUALITY-PROMPT.md",
+    "new_path": "data-analytics/analytics-engineering/data-quality.md",
+    "domain": "data-analytics",
+    "subcategory": "analytics-engineering",
+    "summary": "You are a Data Quality Engineer performing a read-only data profiling and validation pass",
+    "output_artifact": "DATA_QUALITY.md",
+    "size_bytes": 2640
+  },
+  {
+    "id": "data-retention-consent",
+    "legacy_filename": "DATA-RETENTION-CONSENT-PROMPT.md",
+    "new_path": "legal-compliance/privacy-compliance/data-retention-consent.md",
+    "domain": "legal-compliance",
+    "subcategory": "privacy-compliance",
+    "summary": "You are a Privacy Engineer auditing data-retention schedules and consent-mechanism implementation",
+    "output_artifact": "DATA_RETENTION_CONSENT_REPORT.md",
+    "size_bytes": 2505
+  },
+  {
     "id": "dependency",
     "legacy_filename": "DEPENDENCY-PROMPT.md",
     "new_path": "software-engineering/quality-security/dependency.md",
@@ -180,6 +750,136 @@
     "size_bytes": 2586
   },
   {
+    "id": "diagnostic-gap-audit",
+    "legacy_filename": "DIAGNOSTIC-GAP-AUDIT-PROMPT.md",
+    "new_path": "pedagogy-learning/skill-diagnostics/diagnostic-gap-audit.md",
+    "domain": "pedagogy-learning",
+    "subcategory": "skill-diagnostics",
+    "summary": "Generating targeted diagnostic exams evaluating problem-solving intuition rather than rote memory with mistake-pattern analysis",
+    "output_artifact": "SKILL_DIAGNOSTIC_AUDIT.md",
+    "size_bytes": 4256
+  },
+  {
+    "id": "draw-call-optimizer",
+    "legacy_filename": "DRAW-CALL-OPTIMIZER-PROMPT.md",
+    "new_path": "game-development/graphics-performance/draw-call-optimizer.md",
+    "domain": "game-development",
+    "subcategory": "graphics-performance",
+    "summary": "You are a Rendering Performance Engineer authoring a draw-call reduction plan via batching, instancing, and state-change ordering",
+    "output_artifact": "DRAW_CALL_OPTIMIZER.md",
+    "size_bytes": 2277
+  },
+  {
+    "id": "dual-license-patent",
+    "legacy_filename": "DUAL-LICENSE-PATENT-PROMPT.md",
+    "new_path": "legal-compliance/ip-licensing/dual-license-patent.md",
+    "domain": "legal-compliance",
+    "subcategory": "ip-licensing",
+    "summary": "You are an IP Licensing Counsel auditing dual-licensing elections and patent-retaliation clauses",
+    "output_artifact": "DUAL_LICENSE_PATENT_REPORT.md",
+    "size_bytes": 2602
+  },
+  {
+    "id": "economy-sink-source-audit",
+    "legacy_filename": "ECONOMY-SINK-SOURCE-AUDIT-PROMPT.md",
+    "new_path": "game-development/economy-balancing/economy-sink-source-audit.md",
+    "domain": "game-development",
+    "subcategory": "economy-balancing",
+    "summary": "You are an Autonomous Economy Auditor detecting inflation, dead sinks, and source/sink imbalance with no user input",
+    "output_artifact": "ECONOMY_SINK_SOURCE_AUDIT.md",
+    "size_bytes": 2396
+  },
+  {
+    "id": "ecs-architecture-audit",
+    "legacy_filename": "ECS-ARCHITECTURE-AUDIT-PROMPT.md",
+    "new_path": "game-development/engine-systems/ecs-architecture-audit.md",
+    "domain": "game-development",
+    "subcategory": "engine-systems",
+    "summary": "You are a Principal Game Engine Architect performing an autonomous ECS conformance audit for Unity DOTS, Unreal Mass, and Godot",
+    "output_artifact": "ECS_ARCHITECTURE_AUDIT.md",
+    "size_bytes": 3751
+  },
+  {
+    "id": "edge-case-matrix",
+    "legacy_filename": "EDGE-CASE-MATRIX-PROMPT.md",
+    "new_path": "product-venture/product-specs/edge-case-matrix.md",
+    "domain": "product-venture",
+    "subcategory": "product-specs",
+    "summary": "Autonomous edge-case, abuse, and concurrency matrix with production telemetry and guardrail specification",
+    "output_artifact": "EDGE_CASE_MATRIX.md",
+    "size_bytes": 2682
+  },
+  {
+    "id": "engine-systems-conformance-audit",
+    "legacy_filename": "ENGINE-SYSTEMS-CONFORMANCE-AUDIT-PROMPT.md",
+    "new_path": "game-development/engine-systems/engine-systems-conformance-audit.md",
+    "domain": "game-development",
+    "subcategory": "engine-systems",
+    "summary": "You are an Autonomous Engine Systems Conformance Auditor for update ordering, lifecycle leaks, and streaming symmetry",
+    "output_artifact": "ENGINE_SYSTEMS_CONFORMANCE_AUDIT.md",
+    "size_bytes": 2748
+  },
+  {
+    "id": "environmental-puzzle-mechanics",
+    "legacy_filename": "ENVIRONMENTAL-PUZZLE-MECHANICS-PROMPT.md",
+    "new_path": "game-development/level-design/environmental-puzzle-mechanics.md",
+    "domain": "game-development",
+    "subcategory": "level-design",
+    "summary": "You are a Puzzle Designer authoring diegetic environmental mechanics with deterministic solve/fail states and soft-lock-free reset",
+    "output_artifact": "ENVIRONMENTAL_PUZZLE_MECHANICS.md",
+    "size_bytes": 2261
+  },
+  {
+    "id": "etl",
+    "legacy_filename": "ETL-PROMPT.md",
+    "new_path": "data-analytics/analytics-engineering/etl.md",
+    "domain": "data-analytics",
+    "subcategory": "analytics-engineering",
+    "summary": "You are a Data Engineer building or refactoring an idempotent, observable pipeline",
+    "output_artifact": "PIPELINE.md",
+    "size_bytes": 3056
+  },
+  {
+    "id": "event",
+    "legacy_filename": "EVENT-PROMPT.md",
+    "new_path": "worldbuilding/lore-systems/event.md",
+    "domain": "worldbuilding",
+    "subcategory": "lore-systems",
+    "summary": "You are an expert worldbuilder and war historian for a Brutal Dark Medieval Fantasy RPG",
+    "output_artifact": "N/A",
+    "size_bytes": 5416
+  },
+  {
+    "id": "experimental-design-power",
+    "legacy_filename": "EXPERIMENTAL-DESIGN-POWER-PROMPT.md",
+    "new_path": "academic-research/experimental-design/experimental-design-power.md",
+    "domain": "academic-research",
+    "subcategory": "experimental-design",
+    "summary": "Defining control/treatment groups, confounding variables, sample-size justification, and statistical test recommendations before collecting data",
+    "output_artifact": "EXPERIMENTAL_DESIGN.md",
+    "size_bytes": 3876
+  },
+  {
+    "id": "experimental-design-replication-auditor",
+    "legacy_filename": "EXPERIMENTAL-DESIGN-REPLICATION-AUDITOR-PROMPT.md",
+    "new_path": "academic-research/experimental-design/experimental-design-replication-auditor.md",
+    "domain": "academic-research",
+    "subcategory": "experimental-design",
+    "summary": "Autonomous replication-crisis auditor scoring protocol reproducibility and missing controls.",
+    "output_artifact": "EXPERIMENTAL_DESIGN_REPLICATION_AUDIT.md",
+    "size_bytes": 2312
+  },
+  {
+    "id": "faction",
+    "legacy_filename": "FACTION-PROMPT.md",
+    "new_path": "worldbuilding/factions-beliefs/faction.md",
+    "domain": "worldbuilding",
+    "subcategory": "factions-beliefs",
+    "summary": "You are an expert worldbuilder and institutional historian for a Brutal Dark Medieval Fantasy RPG",
+    "output_artifact": "N/A",
+    "size_bytes": 4489
+  },
+  {
     "id": "feature",
     "legacy_filename": "FEATURE-PROMPT.md",
     "new_path": "software-engineering/product-strategy/feature.md",
@@ -187,7 +887,67 @@
     "subcategory": "product-strategy",
     "summary": "You are a Lead Product Engineer",
     "output_artifact": "N/A",
-    "size_bytes": 1829
+    "size_bytes": 2693
+  },
+  {
+    "id": "flux-diffusers-pipeline",
+    "legacy_filename": "FLUX-DIFFUSERS-PIPELINE-PROMPT.md",
+    "new_path": "image-generation/diffusers-pipelines/flux-diffusers-pipeline.md",
+    "domain": "image-generation",
+    "subcategory": "diffusers-pipelines",
+    "summary": "You are a Next-Gen Image Synthesis Engineer constructing FLUX.1 [dev/schnell] flow matching pipelines with NF4/FP8 quantization",
+    "output_artifact": "FLUX_DIFFUSERS_NOTEBOOK.ipynb",
+    "size_bytes": 4133
+  },
+  {
+    "id": "gdpr-dpia-assessment",
+    "legacy_filename": "GDPR-DPIA-ASSESSMENT-PROMPT.md",
+    "new_path": "legal-compliance/privacy-compliance/gdpr-dpia-assessment.md",
+    "domain": "legal-compliance",
+    "subcategory": "privacy-compliance",
+    "summary": "Autonomous Data Protection Impact Assessment (DPIA) generator and privacy risk mitigation auditor",
+    "output_artifact": "GDPR_DPIA_ASSESSMENT.md",
+    "size_bytes": 5740
+  },
+  {
+    "id": "git-repo-health-audit",
+    "legacy_filename": "GIT-REPO-HEALTH-AUDIT-PROMPT.md",
+    "new_path": "software-engineering/architecture/git-repo-health-audit.md",
+    "domain": "software-engineering",
+    "subcategory": "architecture",
+    "summary": "Autonomous git codebase health, architectural debt, and test coverage gap auditor with automated remediation roadmap",
+    "output_artifact": "GIT_REPO_HEALTH_AUDIT.md",
+    "size_bytes": 5139
+  },
+  {
+    "id": "greybox-spatial-blueprint",
+    "legacy_filename": "GREYBOX-SPATIAL-BLUEPRINT-PROMPT.md",
+    "new_path": "game-development/level-design/greybox-spatial-blueprint.md",
+    "domain": "game-development",
+    "subcategory": "level-design",
+    "summary": "You are a Level Designer producing an annotated greybox spatial blueprint with cover arcs, sightlines, and traversal paths",
+    "output_artifact": "GREYBOX_SPATIAL_BLUEPRINT.md",
+    "size_bytes": 2329
+  },
+  {
+    "id": "hardened-ci-cd-pipeline",
+    "legacy_filename": "HARDENED-CI-CD-PIPELINE-PROMPT.md",
+    "new_path": "devops-sre/pipeline-automation/hardened-ci-cd-pipeline.md",
+    "domain": "devops-sre",
+    "subcategory": "pipeline-automation",
+    "summary": "Hardened GitHub Actions / GitLab CI workflow architecture, OIDC secretless auth, and runner isolation spec",
+    "output_artifact": "HARDENED_CI_CD_PIPELINE.md",
+    "size_bytes": 5879
+  },
+  {
+    "id": "helm-chart-architecture",
+    "legacy_filename": "HELM-CHART-ARCHITECTURE-PROMPT.md",
+    "new_path": "devops-sre/container-k8s/helm-chart-architecture.md",
+    "domain": "devops-sre",
+    "subcategory": "container-k8s",
+    "summary": "Production Helm v3 chart architecture, value schema validation, and multi-environment override design",
+    "output_artifact": "HELM_CHART_ARCHITECTURE.md",
+    "size_bytes": 5376
   },
   {
     "id": "i18n",
@@ -200,6 +960,16 @@
     "size_bytes": 3177
   },
   {
+    "id": "iac-drift-remediation-audit",
+    "legacy_filename": "IAC-DRIFT-REMEDIATION-AUDIT-PROMPT.md",
+    "new_path": "devops-sre/infrastructure-as-code/iac-drift-remediation-audit.md",
+    "domain": "devops-sre",
+    "subcategory": "infrastructure-as-code",
+    "summary": "Autonomous Infrastructure as Code state drift detector, manual change scanner, and automated terraform import generator",
+    "output_artifact": "IAC_DRIFT_REMEDIATION_PLAN.md",
+    "size_bytes": 4961
+  },
+  {
     "id": "ideation",
     "legacy_filename": "IDEATION-PROMPT.md",
     "new_path": "software-engineering/product-strategy/ideation.md",
@@ -207,7 +977,37 @@
     "subcategory": "product-strategy",
     "summary": "You are a Principal Product Strategist and Technical Feasibility Assessor operating with full autonomy",
     "output_artifact": "N/A",
-    "size_bytes": 6541
+    "size_bytes": 6527
+  },
+  {
+    "id": "image-controlnet-depth-auditor",
+    "legacy_filename": "IMAGE-CONTROLNET-DEPTH-AUDITOR-PROMPT.md",
+    "new_path": "image-generation/conditioned-generation/image-controlnet-depth-auditor.md",
+    "domain": "image-generation",
+    "subcategory": "conditioned-generation",
+    "summary": "Autonomous ControlNet depth-fidelity auditor.",
+    "output_artifact": "IMAGE_CONTROLNET_DEPTH_AUDITOR.md",
+    "size_bytes": 1840
+  },
+  {
+    "id": "image-inpainting-mask-auditor",
+    "legacy_filename": "IMAGE-INPAINTING-MASK-AUDITOR-PROMPT.md",
+    "new_path": "image-generation/conditioned-generation/image-inpainting-mask-auditor.md",
+    "domain": "image-generation",
+    "subcategory": "conditioned-generation",
+    "summary": "Autonomous inpainting mask localization and seam auditor.",
+    "output_artifact": "IMAGE_INPAINTING_MASK_AUDITOR.md",
+    "size_bytes": 1867
+  },
+  {
+    "id": "image-lora-stack-composer",
+    "legacy_filename": "IMAGE-LORA-STACK-COMPOSER-PROMPT.md",
+    "new_path": "image-generation/diffusers-pipelines/image-lora-stack-composer.md",
+    "domain": "image-generation",
+    "subcategory": "diffusers-pipelines",
+    "summary": "Autonomous multi-LoRA stacking composer and bleed checker.",
+    "output_artifact": "IMAGE_LORA_STACK_COMPOSER.md",
+    "size_bytes": 1787
   },
   {
     "id": "improvement",
@@ -217,7 +1017,247 @@
     "subcategory": "product-strategy",
     "summary": "You are a Principal Software Engineer executing a proactive code improvement and stabilization run",
     "output_artifact": "N/A",
-    "size_bytes": 2069
+    "size_bytes": 2844
+  },
+  {
+    "id": "incumbent-teardown",
+    "legacy_filename": "INCUMBENT-TEARDOWN-PROMPT.md",
+    "new_path": "product-venture/discovery-intelligence/incumbent-teardown.md",
+    "domain": "product-venture",
+    "subcategory": "discovery-intelligence",
+    "summary": "Autonomous reverse-engineering teardown of an incumbent product with competitive scorecard and wedge hypotheses",
+    "output_artifact": "INCUMBENT_TEARDOWN.md",
+    "size_bytes": 3537
+  },
+  {
+    "id": "ingress-service-mesh-config",
+    "legacy_filename": "INGRESS-SERVICE-MESH-CONFIG-PROMPT.md",
+    "new_path": "devops-sre/container-k8s/ingress-service-mesh-config.md",
+    "domain": "devops-sre",
+    "subcategory": "container-k8s",
+    "summary": "Ingress controller and Istio/Linkerd service mesh configuration, mTLS enforcement, and traffic routing policy",
+    "output_artifact": "INGRESS_SERVICE_MESH_SPEC.md",
+    "size_bytes": 4936
+  },
+  {
+    "id": "interview-synthesis",
+    "legacy_filename": "INTERVIEW-SYNTHESIS-PROMPT.md",
+    "new_path": "product-venture/discovery-intelligence/interview-synthesis.md",
+    "domain": "product-venture",
+    "subcategory": "discovery-intelligence",
+    "summary": "Autonomous synthesis of user interviews into affinity themes, evidence-backed personas, and opportunity statements",
+    "output_artifact": "INTERVIEW_SYNTHESIS.md",
+    "size_bytes": 3158
+  },
+  {
+    "id": "ip-provenance-inventory",
+    "legacy_filename": "IP-PROVENANCE-INVENTORY-PROMPT.md",
+    "new_path": "legal-compliance/ip-licensing/ip-provenance-inventory.md",
+    "domain": "legal-compliance",
+    "subcategory": "ip-licensing",
+    "summary": "You are an IP Asset Manager performing a read-only provenance inventory of first-party, third-party, and contributed code",
+    "output_artifact": "IP_PROVENANCE_INVENTORY.md",
+    "size_bytes": 2627
+  },
+  {
+    "id": "k8s-autoscaling-resource-tuning",
+    "legacy_filename": "K8S-AUTOSCALING-RESOURCE-TUNING-PROMPT.md",
+    "new_path": "devops-sre/container-k8s/k8s-autoscaling-resource-tuning.md",
+    "domain": "devops-sre",
+    "subcategory": "container-k8s",
+    "summary": "Kubernetes HPA/VPA autoscaling policies, pod resource request/limit profiling, and OOMKilled risk reduction",
+    "output_artifact": "K8S_AUTOSCALING_TUNING_SPEC.md",
+    "size_bytes": 5426
+  },
+  {
+    "id": "k8s-security-posture-audit",
+    "legacy_filename": "K8S-SECURITY-POSTURE-AUDIT-PROMPT.md",
+    "new_path": "devops-sre/container-k8s/k8s-security-posture-audit.md",
+    "domain": "devops-sre",
+    "subcategory": "container-k8s",
+    "summary": "Autonomous Kubernetes cluster security posture auditor, RBAC privilege escalation scanner, and pod security standard verifier",
+    "output_artifact": "K8S_SECURITY_POSTURE_AUDIT.md",
+    "size_bytes": 4943
+  },
+  {
+    "id": "license",
+    "legacy_filename": "LICENSE-PROMPT.md",
+    "new_path": "software-engineering/ops-performance/license.md",
+    "domain": "software-engineering",
+    "subcategory": "ops-performance",
+    "summary": "You are an OSS License Compliance Engineer auditing copyleft risk and conflicts",
+    "output_artifact": "LICENSE_AUDIT.md",
+    "size_bytes": 2601
+  },
+  {
+    "id": "linux-safetensor-env",
+    "legacy_filename": "LINUX-SAFETENSOR-ENV-PROMPT.md",
+    "new_path": "safetensor-fine-tuning/linux/linux-safetensor-env.md",
+    "domain": "safetensor-fine-tuning",
+    "subcategory": "linux",
+    "summary": "Principal AI Infrastructure Engineer configuring Linux CUDA/ROCm environments, driver stacks, PyTorch, xFormers, FlashAttention, and bitsandbytes for Safetensors fine-tuning",
+    "output_artifact": "LINUX_SAFETENSOR_ENV.md",
+    "size_bytes": 3542
+  },
+  {
+    "id": "linux-safetensor-pipeline",
+    "legacy_filename": "LINUX-SAFETENSOR-PIPELINE-PROMPT.md",
+    "new_path": "safetensor-fine-tuning/linux/linux-safetensor-pipeline.md",
+    "domain": "safetensor-fine-tuning",
+    "subcategory": "linux",
+    "summary": "Senior ML Training Engineer orchestrating Linux LoRA/QLoRA and full parameter training pipelines, dataset tokenization, hyperparameters, and checkpointing for Safetensors models",
+    "output_artifact": "LINUX_SAFETENSOR_PIPELINE.md",
+    "size_bytes": 3728
+  },
+  {
+    "id": "linux-safetensor-quantization",
+    "legacy_filename": "LINUX-SAFETENSOR-QUANTIZATION-PROMPT.md",
+    "new_path": "safetensor-fine-tuning/linux/linux-safetensor-quantization.md",
+    "domain": "safetensor-fine-tuning",
+    "subcategory": "linux",
+    "summary": "Model Optimization Engineer handling adapter merging, safetensors integrity auditing, GGUF/EXL2/AWQ quantization, and local vLLM/Ollama inference validation on Linux",
+    "output_artifact": "LINUX_SAFETENSOR_QUANTIZATION.md",
+    "size_bytes": 3739
+  },
+  {
+    "id": "lit-synthesis-citation-network",
+    "legacy_filename": "LIT-SYNTHESIS-CITATION-NETWORK-PROMPT.md",
+    "new_path": "academic-research/lit-synthesis/lit-synthesis-citation-network.md",
+    "domain": "academic-research",
+    "subcategory": "lit-synthesis",
+    "summary": "Autonomous citation-network reconstruction and anomaly detection.",
+    "output_artifact": "LIT_SYNTHESIS_CITATION_NETWORK.md",
+    "size_bytes": 1837
+  },
+  {
+    "id": "lit-synthesis-gap-tracker",
+    "legacy_filename": "LIT-SYNTHESIS-GAP-TRACKER-PROMPT.md",
+    "new_path": "academic-research/lit-synthesis/lit-synthesis-gap-tracker.md",
+    "domain": "academic-research",
+    "subcategory": "lit-synthesis",
+    "summary": "Autonomous literature gap and contradiction clustering tracker.",
+    "output_artifact": "LIT_SYNTHESIS_GAP_TRACKER.md",
+    "size_bytes": 1972
+  },
+  {
+    "id": "lit-synthesis-matrix",
+    "legacy_filename": "LIT-SYNTHESIS-MATRIX-PROMPT.md",
+    "new_path": "academic-research/lit-synthesis/lit-synthesis-matrix.md",
+    "domain": "academic-research",
+    "subcategory": "lit-synthesis",
+    "summary": "Ingesting paper abstracts/summaries to produce a traceable matrix comparing methodologies, sample sizes, constraints, and conflicting results",
+    "output_artifact": "LIT_SYNTHESIS_MATRIX.md",
+    "size_bytes": 3936
+  },
+  {
+    "id": "location",
+    "legacy_filename": "LOCATION-PROMPT.md",
+    "new_path": "worldbuilding/lore-systems/location.md",
+    "domain": "worldbuilding",
+    "subcategory": "lore-systems",
+    "summary": "You are an expert worldbuilder and cartographic historian for a Brutal Dark Medieval Fantasy RPG",
+    "output_artifact": "N/A",
+    "size_bytes": 4810
+  },
+  {
+    "id": "loot-table-balancer",
+    "legacy_filename": "LOOT-TABLE-BALANCER-PROMPT.md",
+    "new_path": "game-development/economy-balancing/loot-table-balancer.md",
+    "domain": "game-development",
+    "subcategory": "economy-balancing",
+    "summary": "You are a Game Economy Designer authoring weighted, seed-deterministic loot tables with pity floors and manipulation defense",
+    "output_artifact": "LOOT_TABLE_BALANCER.md",
+    "size_bytes": 2218
+  },
+  {
+    "id": "mac-safetensor-env",
+    "legacy_filename": "MAC-SAFETENSOR-ENV-PROMPT.md",
+    "new_path": "safetensor-fine-tuning/mac/mac-safetensor-env.md",
+    "domain": "safetensor-fine-tuning",
+    "subcategory": "mac",
+    "summary": "macOS Apple Silicon Systems Specialist configuring Metal Performance Shaders (MPS), MLX framework, sysctl unified memory limits, and Homebrew toolchains for Safetensors fine-tuning",
+    "output_artifact": "MAC_SAFETENSOR_ENV.md",
+    "size_bytes": 3957
+  },
+  {
+    "id": "mac-safetensor-pipeline",
+    "legacy_filename": "MAC-SAFETENSOR-PIPELINE-PROMPT.md",
+    "new_path": "safetensor-fine-tuning/mac/mac-safetensor-pipeline.md",
+    "domain": "safetensor-fine-tuning",
+    "subcategory": "mac",
+    "summary": "Apple Silicon ML Engineer executing MLX/LoRA and QLoRA fine-tuning workflows, dataset formatting, unified memory optimization, and MPS checkpointing for Safetensors models",
+    "output_artifact": "MAC_SAFETENSOR_PIPELINE.md",
+    "size_bytes": 3692
+  },
+  {
+    "id": "mac-safetensor-quantization",
+    "legacy_filename": "MAC-SAFETENSOR-QUANTIZATION-PROMPT.md",
+    "new_path": "safetensor-fine-tuning/mac/mac-safetensor-quantization.md",
+    "domain": "safetensor-fine-tuning",
+    "subcategory": "mac",
+    "summary": "macOS Model Release Specialist merging MLX adapter weights into safetensors, performing metal float precision audits, GGUF quantization via native llama.cpp, and Ollama/LM Studio deployment",
+    "output_artifact": "MAC_SAFETENSOR_QUANTIZATION.md",
+    "size_bytes": 3614
+  },
+  {
+    "id": "magic",
+    "legacy_filename": "MAGIC-PROMPT.md",
+    "new_path": "worldbuilding/lore-systems/magic.md",
+    "domain": "worldbuilding",
+    "subcategory": "lore-systems",
+    "summary": "You are an expert worldbuilder and arcane theorist for a Brutal Dark Medieval Fantasy RPG",
+    "output_artifact": "N/A",
+    "size_bytes": 5968
+  },
+  {
+    "id": "manuscript-figure-caption-auditor",
+    "legacy_filename": "MANUSCRIPT-FIGURE-CAPTION-AUDITOR-PROMPT.md",
+    "new_path": "academic-research/manuscript-prep/manuscript-figure-caption-auditor.md",
+    "domain": "academic-research",
+    "subcategory": "manuscript-prep",
+    "summary": "Autonomous figure caption and statistical-honesty auditor.",
+    "output_artifact": "MANUSCRIPT_FIGURE_CAPTION_AUDITOR.md",
+    "size_bytes": 1958
+  },
+  {
+    "id": "manuscript-latex-prep",
+    "legacy_filename": "MANUSCRIPT-LATEX-PREP-PROMPT.md",
+    "new_path": "academic-research/manuscript-prep/manuscript-latex-prep.md",
+    "domain": "academic-research",
+    "subcategory": "manuscript-prep",
+    "summary": "Formatting raw findings into journal-specific IMRaD structures with publication-ready figure captions and citations",
+    "output_artifact": "MANUSCRIPT.md",
+    "size_bytes": 3782
+  },
+  {
+    "id": "market-opportunity-map",
+    "legacy_filename": "MARKET-OPPORTUNITY-MAP-PROMPT.md",
+    "new_path": "product-venture/discovery-intelligence/market-opportunity-map.md",
+    "domain": "product-venture",
+    "subcategory": "discovery-intelligence",
+    "summary": "Autonomous TAM/SAM/SOM sizing, segment matrix, and whitespace opportunity portfolio for a category",
+    "output_artifact": "MARKET_OPPORTUNITY_MAP.md",
+    "size_bytes": 2867
+  },
+  {
+    "id": "memory-budget-enforcer",
+    "legacy_filename": "MEMORY-BUDGET-ENFORCER-PROMPT.md",
+    "new_path": "game-development/graphics-performance/memory-budget-enforcer.md",
+    "domain": "game-development",
+    "subcategory": "graphics-performance",
+    "summary": "You are an Autonomous Memory Budget Enforcer auditing per-platform runtime caps, leaks, and headroom with no user input",
+    "output_artifact": "MEMORY_BUDGET_ENFORCER.md",
+    "size_bytes": 2320
+  },
+  {
+    "id": "metrics",
+    "legacy_filename": "METRICS-PROMPT.md",
+    "new_path": "data-analytics/analytics-engineering/metrics.md",
+    "domain": "data-analytics",
+    "subcategory": "analytics-engineering",
+    "summary": "You are a Metrics & Analytics Lead defining and normalizing a canonical KPI/metric taxonomy",
+    "output_artifact": "METRICS.md",
+    "size_bytes": 2551
   },
   {
     "id": "migration",
@@ -230,6 +1270,16 @@
     "size_bytes": 3701
   },
   {
+    "id": "mobile-console-target-profiler",
+    "legacy_filename": "MOBILE-CONSOLE-TARGET-PROFILER-PROMPT.md",
+    "new_path": "game-development/graphics-performance/mobile-console-target-profiler.md",
+    "domain": "game-development",
+    "subcategory": "graphics-performance",
+    "summary": "You are an Autonomous Target Profiler projecting frame budgets, thermal risk, and dynamic resolution across mobile and console SKUs",
+    "output_artifact": "MOBILE_CONSOLE_TARGET_PROFILER.md",
+    "size_bytes": 2418
+  },
+  {
     "id": "modularize",
     "legacy_filename": "MODULARIZE-PROMPT.md",
     "new_path": "software-engineering/architecture/modularize.md",
@@ -238,6 +1288,96 @@
     "summary": "You are a Lead Software Architect performing a structural refactor",
     "output_artifact": "MODULARIZATION.md",
     "size_bytes": 5722
+  },
+  {
+    "id": "monetization-risk-audit",
+    "legacy_filename": "MONETIZATION-RISK-AUDIT-PROMPT.md",
+    "new_path": "product-venture/monetization-pricing/monetization-risk-audit.md",
+    "domain": "product-venture",
+    "subcategory": "monetization-pricing",
+    "summary": "Autonomous monetization strategy risk audit with exposure scoring and resilience grading A-F",
+    "output_artifact": "MONETIZATION_RISK_AUDIT.md",
+    "size_bytes": 2677
+  },
+  {
+    "id": "multi-az-failover-runbook",
+    "legacy_filename": "MULTI-AZ-FAILOVER-RUNBOOK-PROMPT.md",
+    "new_path": "devops-sre/resilience-recovery/multi-az-failover-runbook.md",
+    "domain": "devops-sre",
+    "subcategory": "resilience-recovery",
+    "summary": "Multi-AZ and multi-region automated failover runbook, DNS failover routing, and database split-brain defense",
+    "output_artifact": "MULTI_AZ_FAILOVER_RUNBOOK.md",
+    "size_bytes": 5370
+  },
+  {
+    "id": "multi-region-cloud-topology",
+    "legacy_filename": "MULTI-REGION-CLOUD-TOPOLOGY-PROMPT.md",
+    "new_path": "devops-sre/infrastructure-as-code/multi-region-cloud-topology.md",
+    "domain": "devops-sre",
+    "subcategory": "infrastructure-as-code",
+    "summary": "Multi-region cloud infrastructure topology specification, active-active networking, and VPC peering design",
+    "output_artifact": "MULTI_REGION_CLOUD_TOPOLOGY.md",
+    "size_bytes": 4702
+  },
+  {
+    "id": "music-arranger-prompt-suite",
+    "legacy_filename": "MUSIC-ARRANGER-PROMPT-SUITE-PROMPT.md",
+    "new_path": "music-generation/text-to-music/music-arranger-prompt-suite.md",
+    "domain": "music-generation",
+    "subcategory": "text-to-music",
+    "summary": "Autonomous multi-section music prompt arranger, stem structuring agent, and acoustic parameter generator for MusicGen and Suno",
+    "output_artifact": "MUSIC_ARRANGER_SUITE.md",
+    "size_bytes": 5059
+  },
+  {
+    "id": "music-genre-prompt-auditor",
+    "legacy_filename": "MUSIC-GENRE-PROMPT-AUDITOR-PROMPT.md",
+    "new_path": "music-generation/text-to-music/music-genre-prompt-auditor.md",
+    "domain": "music-generation",
+    "subcategory": "text-to-music",
+    "summary": "Autonomous genre/tempo/instrument prompt-fidelity auditor.",
+    "output_artifact": "MUSIC_GENRE_PROMPT_AUDITOR.md",
+    "size_bytes": 1797
+  },
+  {
+    "id": "music-stem-loudness-normalizer",
+    "legacy_filename": "MUSIC-STEM-LOUDNESS-NORMALIZER-PROMPT.md",
+    "new_path": "music-generation/audio-diffusion-stem/music-stem-loudness-normalizer.md",
+    "domain": "music-generation",
+    "subcategory": "audio-diffusion-stem",
+    "summary": "Autonomous stem loudness (LUFS) normalizer.",
+    "output_artifact": "MUSIC_STEM_LOUDNESS_NORMALIZER.md",
+    "size_bytes": 1710
+  },
+  {
+    "id": "music-stem-separation-auditor",
+    "legacy_filename": "MUSIC-STEM-SEPARATION-AUDITOR-PROMPT.md",
+    "new_path": "music-generation/audio-diffusion-stem/music-stem-separation-auditor.md",
+    "domain": "music-generation",
+    "subcategory": "audio-diffusion-stem",
+    "summary": "Autonomous stem-separation quality auditor.",
+    "output_artifact": "MUSIC_STEM_SEPARATION_AUDITOR.md",
+    "size_bytes": 1821
+  },
+  {
+    "id": "music-structure-sectioner",
+    "legacy_filename": "MUSIC-STRUCTURE-SECTIONER-PROMPT.md",
+    "new_path": "music-generation/text-to-music/music-structure-sectioner.md",
+    "domain": "music-generation",
+    "subcategory": "text-to-music",
+    "summary": "Autonomous song-structure sectioner and arc checker.",
+    "output_artifact": "MUSIC_STRUCTURE_SECTIONER.md",
+    "size_bytes": 1800
+  },
+  {
+    "id": "musicgen-pipeline",
+    "legacy_filename": "MUSICGEN-PIPELINE-PROMPT.md",
+    "new_path": "music-generation/text-to-music/musicgen-pipeline.md",
+    "domain": "music-generation",
+    "subcategory": "text-to-music",
+    "summary": "You are an AI Audio & Music Generation Engineer building Meta MusicGen text-to-music and melody-guided steering pipelines",
+    "output_artifact": "MUSICGEN_NOTEBOOK.ipynb",
+    "size_bytes": 4309
   },
   {
     "id": "observability",
@@ -260,144 +1400,44 @@
     "size_bytes": 2413
   },
   {
-    "id": "performance",
-    "legacy_filename": "PERFORMANCE-PROMPT.md",
-    "new_path": "software-engineering/ops-performance/performance.md",
-    "domain": "software-engineering",
-    "subcategory": "ops-performance",
-    "summary": "You are a Performance Engineer performing a profiling-driven optimization pass",
-    "output_artifact": "PERFORMANCE.md",
-    "size_bytes": 2942
+    "id": "onboarding-funnel",
+    "legacy_filename": "ONBOARDING-FUNNEL-PROMPT.md",
+    "new_path": "product-venture/gtm-launch/onboarding-funnel.md",
+    "domain": "product-venture",
+    "subcategory": "gtm-launch",
+    "summary": "Autonomous onboarding funnel design with aha-moment definition, instrumentation, and activation experiments",
+    "output_artifact": "ONBOARDING_FUNNEL.md",
+    "size_bytes": 2614
   },
   {
-    "id": "postmortem",
-    "legacy_filename": "POSTMORTEM-PROMPT.md",
-    "new_path": "software-engineering/ops-performance/postmortem.md",
-    "domain": "software-engineering",
-    "subcategory": "ops-performance",
-    "summary": "You are a Site Reliability Engineer writing a blameless postmortem for a production incident",
-    "output_artifact": "POSTMORTEM.md",
-    "size_bytes": 2972
+    "id": "oss-license-conflict-audit",
+    "legacy_filename": "OSS-LICENSE-CONFLICT-AUDIT-PROMPT.md",
+    "new_path": "legal-compliance/ip-licensing/oss-license-conflict-audit.md",
+    "domain": "legal-compliance",
+    "subcategory": "ip-licensing",
+    "summary": "You are an OSS License Compliance Engineer auditing GPL/AGPL/LGPL copyleft contamination against the distribution model",
+    "output_artifact": "OSS_LICENSE_CONFLICT_AUDIT.md",
+    "size_bytes": 2734
   },
   {
-    "id": "review",
-    "legacy_filename": "REVIEW-PROMPT.md",
-    "new_path": "software-engineering/quality-security/review.md",
-    "domain": "software-engineering",
-    "subcategory": "quality-security",
-    "summary": "You are a Staff Software Engineer performing a pull request review",
-    "output_artifact": "N/A",
-    "size_bytes": 3073
+    "id": "pacing-map-generator",
+    "legacy_filename": "PACING-MAP-GENERATOR-PROMPT.md",
+    "new_path": "game-development/level-design/pacing-map-generator.md",
+    "domain": "game-development",
+    "subcategory": "level-design",
+    "summary": "You are a Narrative Pacing Designer generating a tension-curve pacing map sequencing combat, exploration, and rest beats",
+    "output_artifact": "PACING_MAP_GENERATOR.md",
+    "size_bytes": 2127
   },
   {
-    "id": "schema",
-    "legacy_filename": "SCHEMA-PROMPT.md",
-    "new_path": "software-engineering/architecture/schema.md",
-    "domain": "software-engineering",
-    "subcategory": "architecture",
-    "summary": "You are a Database Engineer executing a schema evolution with zero-downtime as a hard requirement",
-    "output_artifact": "SCHEMA_MIGRATION.md",
-    "size_bytes": 3950
-  },
-  {
-    "id": "security",
-    "legacy_filename": "SECURITY-PROMPT.md",
-    "new_path": "software-engineering/quality-security/security.md",
-    "domain": "software-engineering",
-    "subcategory": "quality-security",
-    "summary": "You are a Principal Application Security Engineer performing a strict security audit and remediation pass",
-    "output_artifact": "SECURITY.md",
-    "size_bytes": 3669
-  },
-  {
-    "id": "testing",
-    "legacy_filename": "TESTING-PROMPT.md",
-    "new_path": "software-engineering/ops-performance/testing.md",
-    "domain": "software-engineering",
-    "subcategory": "ops-performance",
-    "summary": "You are a Principal Software Engineer and Testing Architect executing a comprehensive, project-wide testing run",
-    "output_artifact": "N/A",
-    "size_bytes": 2488
-  },
-  {
-    "id": "artifact",
-    "legacy_filename": "ARTIFACT-PROMPT.md",
-    "new_path": "worldbuilding/lore-systems/artifact.md",
-    "domain": "worldbuilding",
-    "subcategory": "lore-systems",
-    "summary": "You are an expert worldbuilder and antiquarian for a Brutal Dark Medieval Fantasy RPG",
-    "output_artifact": "N/A",
-    "size_bytes": 5231
-  },
-  {
-    "id": "bestiary",
-    "legacy_filename": "BESTIARY-PROMPT.md",
-    "new_path": "worldbuilding/entities/bestiary.md",
-    "domain": "worldbuilding",
-    "subcategory": "entities",
-    "summary": "You are an expert worldbuilder and field naturalist for a Brutal Dark Medieval Fantasy RPG",
-    "output_artifact": "N/A",
-    "size_bytes": 5023
-  },
-  {
-    "id": "bloodline",
-    "legacy_filename": "BLOODLINE-PROMPT.md",
-    "new_path": "worldbuilding/factions-beliefs/bloodline.md",
-    "domain": "worldbuilding",
-    "subcategory": "factions-beliefs",
-    "summary": "You are an expert worldbuilder and genealogical historian for a Brutal Dark Medieval Fantasy RPG",
-    "output_artifact": "N/A",
-    "size_bytes": 5339
-  },
-  {
-    "id": "character",
-    "legacy_filename": "CHARACTER-PROMPT.md",
-    "new_path": "worldbuilding/entities/character.md",
-    "domain": "worldbuilding",
-    "subcategory": "entities",
-    "summary": "You are an expert worldbuilder and narrative designer for a Brutal Dark Medieval Fantasy RPG",
-    "output_artifact": "N/A",
-    "size_bytes": 3385
-  },
-  {
-    "id": "event",
-    "legacy_filename": "EVENT-PROMPT.md",
-    "new_path": "worldbuilding/lore-systems/event.md",
-    "domain": "worldbuilding",
-    "subcategory": "lore-systems",
-    "summary": "You are an expert worldbuilder and war historian for a Brutal Dark Medieval Fantasy RPG",
-    "output_artifact": "N/A",
-    "size_bytes": 5416
-  },
-  {
-    "id": "faction",
-    "legacy_filename": "FACTION-PROMPT.md",
-    "new_path": "worldbuilding/factions-beliefs/faction.md",
-    "domain": "worldbuilding",
-    "subcategory": "factions-beliefs",
-    "summary": "You are an expert worldbuilder and institutional historian for a Brutal Dark Medieval Fantasy RPG",
-    "output_artifact": "N/A",
-    "size_bytes": 4489
-  },
-  {
-    "id": "location",
-    "legacy_filename": "LOCATION-PROMPT.md",
-    "new_path": "worldbuilding/lore-systems/location.md",
-    "domain": "worldbuilding",
-    "subcategory": "lore-systems",
-    "summary": "You are an expert worldbuilder and cartographic historian for a Brutal Dark Medieval Fantasy RPG",
-    "output_artifact": "N/A",
-    "size_bytes": 4810
-  },
-  {
-    "id": "magic",
-    "legacy_filename": "MAGIC-PROMPT.md",
-    "new_path": "worldbuilding/lore-systems/magic.md",
-    "domain": "worldbuilding",
-    "subcategory": "lore-systems",
-    "summary": "You are an expert worldbuilder and arcane theorist for a Brutal Dark Medieval Fantasy RPG",
-    "output_artifact": "N/A",
-    "size_bytes": 5968
+    "id": "pain-point-extraction",
+    "legacy_filename": "PAIN-POINT-EXTRACTION-PROMPT.md",
+    "new_path": "product-venture/discovery-intelligence/pain-point-extraction.md",
+    "domain": "product-venture",
+    "subcategory": "discovery-intelligence",
+    "summary": "Autonomous pain-point extraction, severity x frequency scoring, and impact/effort prioritization matrix",
+    "output_artifact": "PAIN_POINT_EXTRACTION.md",
+    "size_bytes": 2758
   },
   {
     "id": "pantheon",
@@ -410,6 +1450,126 @@
     "size_bytes": 5517
   },
   {
+    "id": "peer-review-audit",
+    "legacy_filename": "PEER-REVIEW-AUDIT-PROMPT.md",
+    "new_path": "academic-research/peer-review-audit/peer-review-audit.md",
+    "domain": "academic-research",
+    "subcategory": "peer-review-audit",
+    "summary": "Acting as an unsparing Reviewer #2 to attack methodology flaws, unbacked assertions, statistical overreach, and missing citations",
+    "output_artifact": "PEER_REVIEW_AUDIT.md",
+    "size_bytes": 3793
+  },
+  {
+    "id": "peer-review-statistics-auditor",
+    "legacy_filename": "PEER-REVIEW-STATISTICS-AUDITOR-PROMPT.md",
+    "new_path": "academic-research/peer-review-audit/peer-review-statistics-auditor.md",
+    "domain": "academic-research",
+    "subcategory": "peer-review-audit",
+    "summary": "Autonomous statistics-focused peer-review audit.",
+    "output_artifact": "PEER_REVIEW_STATISTICS_AUDITOR.md",
+    "size_bytes": 2067
+  },
+  {
+    "id": "performance",
+    "legacy_filename": "PERFORMANCE-PROMPT.md",
+    "new_path": "software-engineering/ops-performance/performance.md",
+    "domain": "software-engineering",
+    "subcategory": "ops-performance",
+    "summary": "You are a Performance Engineer performing a profiling-driven optimization pass",
+    "output_artifact": "PERFORMANCE.md",
+    "size_bytes": 2942
+  },
+  {
+    "id": "physics-collision-spec",
+    "legacy_filename": "PHYSICS-COLLISION-SPEC-PROMPT.md",
+    "new_path": "game-development/engine-systems/physics-collision-spec.md",
+    "domain": "game-development",
+    "subcategory": "engine-systems",
+    "summary": "You are a Physics Engineer authoring a deterministic collision spec: collider topology, layer/mask matrix, and solver budget",
+    "output_artifact": "PHYSICS_COLLISION_SPEC.md",
+    "size_bytes": 2699
+  },
+  {
+    "id": "pipeline-vulnerability-containment",
+    "legacy_filename": "PIPELINE-VULNERABILITY-CONTAINMENT-PROMPT.md",
+    "new_path": "devops-sre/pipeline-automation/pipeline-vulnerability-containment.md",
+    "domain": "devops-sre",
+    "subcategory": "pipeline-automation",
+    "summary": "Autonomous CI/CD pipeline supply chain threat scanner, secret leak auditor, and dependency poisoning defense engine",
+    "output_artifact": "PIPELINE_VULNERABILITY_CONTAINMENT.md",
+    "size_bytes": 5354
+  },
+  {
+    "id": "player-flow-diagram",
+    "legacy_filename": "PLAYER-FLOW-DIAGRAM-PROMPT.md",
+    "new_path": "game-development/level-design/player-flow-diagram.md",
+    "domain": "game-development",
+    "subcategory": "level-design",
+    "summary": "You are a Player Experience Architect modeling player flow and decision-path diagrams to expose friction and dead flow",
+    "output_artifact": "PLAYER_FLOW_DIAGRAM.md",
+    "size_bytes": 2057
+  },
+  {
+    "id": "postmortem",
+    "legacy_filename": "POSTMORTEM-PROMPT.md",
+    "new_path": "software-engineering/ops-performance/postmortem.md",
+    "domain": "software-engineering",
+    "subcategory": "ops-performance",
+    "summary": "You are a Site Reliability Engineer writing a blameless postmortem for a production incident",
+    "output_artifact": "POSTMORTEM.md",
+    "size_bytes": 2972
+  },
+  {
+    "id": "prd-generator",
+    "legacy_filename": "PRD-GENERATOR-PROMPT.md",
+    "new_path": "product-venture/product-specs/prd-generator.md",
+    "domain": "product-venture",
+    "subcategory": "product-specs",
+    "summary": "Autonomous PRD generation with INVEST user stories, acceptance criteria, edge cases, and telemetry",
+    "output_artifact": "PRD.md",
+    "size_bytes": 3210
+  },
+  {
+    "id": "privacy-regulatory-audit",
+    "legacy_filename": "PRIVACY-REGULATORY-AUDIT-PROMPT.md",
+    "new_path": "legal-compliance/privacy-compliance/privacy-regulatory-audit.md",
+    "domain": "legal-compliance",
+    "subcategory": "privacy-compliance",
+    "summary": "You are a Privacy Engineer auditing architecture against GDPR, CCPA/CPRA, and the EU AI Act",
+    "output_artifact": "PRIVACY_COMPLIANCE_AUDIT.md",
+    "size_bytes": 2706
+  },
+  {
+    "id": "producthunt-launch-kit",
+    "legacy_filename": "PRODUCTHUNT-LAUNCH-KIT-PROMPT.md",
+    "new_path": "product-venture/gtm-launch/producthunt-launch-kit.md",
+    "domain": "product-venture",
+    "subcategory": "gtm-launch",
+    "summary": "Autonomous Product Hunt and press-launch kit with assets, press release, and 14-day cadence",
+    "output_artifact": "PRODUCTHUNT_LAUNCH_KIT.md",
+    "size_bytes": 2596
+  },
+  {
+    "id": "progression-curve-modeler",
+    "legacy_filename": "PROGRESSION-CURVE-MODELER-PROMPT.md",
+    "new_path": "game-development/economy-balancing/progression-curve-modeler.md",
+    "domain": "game-development",
+    "subcategory": "economy-balancing",
+    "summary": "You are a Progression Designer modeling smooth XP/level curves with TTK-aligned power scaling and unlock cadence",
+    "output_artifact": "PROGRESSION_CURVE_MODELER.md",
+    "size_bytes": 2311
+  },
+  {
+    "id": "prompt-expansion-matrix",
+    "legacy_filename": "PROMPT-EXPANSION-MATRIX-PROMPT.md",
+    "new_path": "image-generation/diffusers-pipelines/prompt-expansion-matrix.md",
+    "domain": "image-generation",
+    "subcategory": "diffusers-pipelines",
+    "summary": "Autonomous prompt expander and aesthetic parameter generator for FLUX, SDXL, and Midjourney diffusion models",
+    "output_artifact": "PROMPT_EXPANSION_MATRIX.md",
+    "size_bytes": 5608
+  },
+  {
     "id": "religion",
     "legacy_filename": "RELIGION-PROMPT.md",
     "new_path": "worldbuilding/factions-beliefs/religion.md",
@@ -418,5 +1578,355 @@
     "summary": "You are an expert worldbuilder and theological historian for a Brutal Dark Medieval Fantasy RPG",
     "output_artifact": "N/A",
     "size_bytes": 5133
+  },
+  {
+    "id": "reporting",
+    "legacy_filename": "REPORTING-PROMPT.md",
+    "new_path": "data-analytics/experimentation/reporting.md",
+    "domain": "data-analytics",
+    "subcategory": "experimentation",
+    "summary": "You are a Data Analyst producing an autonomous periodic insight and KPI movement report",
+    "output_artifact": "REPORT.md",
+    "size_bytes": 2518
+  },
+  {
+    "id": "research-gap-finder",
+    "legacy_filename": "RESEARCH-GAP-FINDER-PROMPT.md",
+    "new_path": "academic-research/lit-synthesis/research-gap-finder.md",
+    "domain": "academic-research",
+    "subcategory": "lit-synthesis",
+    "summary": "Autonomous domain research gap detector, novelty analysis, and high-impact hypothesis generator for academic literature",
+    "output_artifact": "RESEARCH_GAP_ANALYSIS.md",
+    "size_bytes": 4491
+  },
+  {
+    "id": "review",
+    "legacy_filename": "REVIEW-PROMPT.md",
+    "new_path": "software-engineering/quality-security/review.md",
+    "domain": "software-engineering",
+    "subcategory": "quality-security",
+    "summary": "You are a Staff Software Engineer performing a pull request review",
+    "output_artifact": "N/A",
+    "size_bytes": 3073
+  },
+  {
+    "id": "rto-rpo-disaster-recovery-audit",
+    "legacy_filename": "RTO-RPO-DISASTER-RECOVERY-AUDIT-PROMPT.md",
+    "new_path": "devops-sre/resilience-recovery/rto-rpo-disaster-recovery-audit.md",
+    "domain": "devops-sre",
+    "subcategory": "resilience-recovery",
+    "summary": "RTO/RPO disaster recovery audit, snapshot replication verifier, and cold/warm/hot restore protocol test",
+    "output_artifact": "RTO_RPO_DISASTER_RECOVERY_AUDIT.md",
+    "size_bytes": 5451
+  },
+  {
+    "id": "runbook",
+    "legacy_filename": "RUNBOOK-PROMPT.md",
+    "new_path": "software-engineering/ops-performance/runbook.md",
+    "domain": "software-engineering",
+    "subcategory": "ops-performance",
+    "summary": "You are a Site Reliability Engineer generating an autonomous incident runbook",
+    "output_artifact": "RUNBOOK.md",
+    "size_bytes": 2364
+  },
+  {
+    "id": "saas-pricing-modeler",
+    "legacy_filename": "SAAS-PRICING-MODELER-PROMPT.md",
+    "new_path": "product-venture/monetization-pricing/saas-pricing-modeler.md",
+    "domain": "product-venture",
+    "subcategory": "monetization-pricing",
+    "summary": "Autonomous SaaS pricing tier modeling, feature packaging matrix, and expansion-path design",
+    "output_artifact": "SAAS_PRICING_TIERS.md",
+    "size_bytes": 3032
+  },
+  {
+    "id": "safetensor-metadata-audit",
+    "legacy_filename": "SAFETENSOR-METADATA-AUDIT-PROMPT.md",
+    "new_path": "safetensor-fine-tuning/linux/safetensor-metadata-audit.md",
+    "domain": "safetensor-fine-tuning",
+    "subcategory": "linux",
+    "summary": "Autonomous safetensor model weights inspector, tensor shape sanity checker, and quantization readiness auditor",
+    "output_artifact": "SAFETENSOR_METADATA_AUDIT.md",
+    "size_bytes": 5098
+  },
+  {
+    "id": "schema",
+    "legacy_filename": "SCHEMA-PROMPT.md",
+    "new_path": "software-engineering/architecture/schema.md",
+    "domain": "software-engineering",
+    "subcategory": "architecture",
+    "summary": "You are a Database Engineer executing a schema evolution with zero-downtime as a hard requirement",
+    "output_artifact": "SCHEMA_MIGRATION.md",
+    "size_bytes": 3950
+  },
+  {
+    "id": "sdxl-pipeline",
+    "legacy_filename": "SDXL-PIPELINE-PROMPT.md",
+    "new_path": "image-generation/diffusers-pipelines/sdxl-pipeline.md",
+    "domain": "image-generation",
+    "subcategory": "diffusers-pipelines",
+    "summary": "You are a Senior Computer Vision & Generative AI Engineer building SDXL Base + Refiner ensemble diffusers pipelines",
+    "output_artifact": "SDXL_DIFFUSERS_NOTEBOOK.ipynb",
+    "size_bytes": 4319
+  },
+  {
+    "id": "security",
+    "legacy_filename": "SECURITY-PROMPT.md",
+    "new_path": "software-engineering/quality-security/security.md",
+    "domain": "software-engineering",
+    "subcategory": "quality-security",
+    "summary": "You are a Principal Application Security Engineer performing a strict security audit and remediation pass",
+    "output_artifact": "SECURITY.md",
+    "size_bytes": 3669
+  },
+  {
+    "id": "seo",
+    "legacy_filename": "SEO-PROMPT.md",
+    "new_path": "software-engineering/ops-performance/seo.md",
+    "domain": "software-engineering",
+    "subcategory": "ops-performance",
+    "summary": "You are an SEO Engineer performing a technical SEO crawl, metadata, and Core Web Vitals audit",
+    "output_artifact": "SEO.md",
+    "size_bytes": 2350
+  },
+  {
+    "id": "shader-profiling-audit",
+    "legacy_filename": "SHADER-PROFILING-AUDIT-PROMPT.md",
+    "new_path": "game-development/graphics-performance/shader-profiling-audit.md",
+    "domain": "game-development",
+    "subcategory": "graphics-performance",
+    "summary": "You are an Autonomous Shader Profiler auditing HLSL/GLSL for ALU, bandwidth, divergence, and precision with no user input",
+    "output_artifact": "SHADER_PROFILING_AUDIT.md",
+    "size_bytes": 2455
+  },
+  {
+    "id": "sla-architecture",
+    "legacy_filename": "SLA-ARCHITECTURE-PROMPT.md",
+    "new_path": "legal-compliance/policy-frameworks/sla-architecture.md",
+    "domain": "legal-compliance",
+    "subcategory": "policy-frameworks",
+    "summary": "You are a Service-Level Architect drafting customer-facing SLA commitments, credits, and escalation paths",
+    "output_artifact": "SLA_ARCHITECTURE.md",
+    "size_bytes": 2357
+  },
+  {
+    "id": "slo",
+    "legacy_filename": "SLO-PROMPT.md",
+    "new_path": "software-engineering/ops-performance/slo.md",
+    "domain": "software-engineering",
+    "subcategory": "ops-performance",
+    "summary": "You are a Site Reliability Engineer defining SLOs, SLIs, and error-budget policy from telemetry",
+    "output_artifact": "SLO.md",
+    "size_bytes": 2366
+  },
+  {
+    "id": "slo-error-budget-automation",
+    "legacy_filename": "SLO-ERROR-BUDGET-AUTOMATION-PROMPT.md",
+    "new_path": "devops-sre/resilience-recovery/slo-error-budget-automation.md",
+    "domain": "devops-sre",
+    "subcategory": "resilience-recovery",
+    "summary": "Autonomous SRE Service Level Objective (SLO) tracker, error budget burn rate analyzer, and deployment freeze advisory",
+    "output_artifact": "SLO_ERROR_BUDGET_REPORT.md",
+    "size_bytes": 5625
+  },
+  {
+    "id": "soc2-iso27001-policy",
+    "legacy_filename": "SOC2-ISO27001-POLICY-PROMPT.md",
+    "new_path": "legal-compliance/policy-frameworks/soc2-iso27001-policy.md",
+    "domain": "legal-compliance",
+    "subcategory": "policy-frameworks",
+    "summary": "You are a Security Architect drafting SOC 2 and ISO 27001 aligned internal security policies",
+    "output_artifact": "SECURITY_POLICY_FRAMEWORK.md",
+    "size_bytes": 2272
+  },
+  {
+    "id": "socratic-interrogation",
+    "legacy_filename": "SOCRATIC-INTERROGATION-PROMPT.md",
+    "new_path": "pedagogy-learning/socratic-drills/socratic-interrogation.md",
+    "domain": "pedagogy-learning",
+    "subcategory": "socratic-drills",
+    "summary": "Interactive interrogation sessions testing first-principles understanding, Feynman Technique analogies, and knowledge gap discovery",
+    "output_artifact": "SOCRATIC_DRILL.md",
+    "size_bytes": 3513
+  },
+  {
+    "id": "spaced-repetition-deck-generator",
+    "legacy_filename": "SPACED-REPETITION-DECK-GENERATOR-PROMPT.md",
+    "new_path": "pedagogy-learning/flashcard-systems/spaced-repetition-deck-generator.md",
+    "domain": "pedagogy-learning",
+    "subcategory": "flashcard-systems",
+    "summary": "Autonomous learning content condenser and atomic cloze-deletion flashcard deck generator for Anki and SRS",
+    "output_artifact": "SPACED_REPETITION_DECK.md",
+    "size_bytes": 4667
+  },
+  {
+    "id": "sql-query-optimizer",
+    "legacy_filename": "SQL-QUERY-OPTIMIZER-PROMPT.md",
+    "new_path": "data-analytics/analytics-engineering/sql-query-optimizer.md",
+    "domain": "data-analytics",
+    "subcategory": "analytics-engineering",
+    "summary": "Autonomous SQL query performance profiler, CTE bottleneck analyzer, and zero-downtime index advisor",
+    "output_artifact": "SQL_QUERY_OPTIMIZATION_PLAN.md",
+    "size_bytes": 4863
+  },
+  {
+    "id": "stable-audio-pipeline",
+    "legacy_filename": "STABLE-AUDIO-PIPELINE-PROMPT.md",
+    "new_path": "music-generation/text-to-music/stable-audio-pipeline.md",
+    "domain": "music-generation",
+    "subcategory": "text-to-music",
+    "summary": "You are an Advanced Latent Audio Diffusion Specialist constructing Stable Audio Open text-to-audio diffusion pipelines",
+    "output_artifact": "STABLE_AUDIO_NOTEBOOK.ipynb",
+    "size_bytes": 3911
+  },
+  {
+    "id": "state-machine-blueprint",
+    "legacy_filename": "STATE-MACHINE-BLUEPRINT-PROMPT.md",
+    "new_path": "game-development/engine-systems/state-machine-blueprint.md",
+    "domain": "game-development",
+    "subcategory": "engine-systems",
+    "summary": "You are a Gameplay Systems Designer authoring FSM/HSM blueprints with explicit transition tables and race resolution",
+    "output_artifact": "STATE_MACHINE_BLUEPRINT.md",
+    "size_bytes": 2714
+  },
+  {
+    "id": "svd-image-to-video-pipeline",
+    "legacy_filename": "SVD-IMAGE-TO-VIDEO-PIPELINE-PROMPT.md",
+    "new_path": "video-generation/image-to-video/svd-image-to-video-pipeline.md",
+    "domain": "video-generation",
+    "subcategory": "image-to-video",
+    "summary": "You are a Temporal Latent Diffusion Specialist building Stable Video Diffusion (SVD-XT) image-to-video animation pipelines",
+    "output_artifact": "SVD_IMAGE_TO_VIDEO_NOTEBOOK.ipynb",
+    "size_bytes": 4233
+  },
+  {
+    "id": "terraform-opentofu-module",
+    "legacy_filename": "TERRAFORM-OPENTOFU-MODULE-PROMPT.md",
+    "new_path": "devops-sre/infrastructure-as-code/terraform-opentofu-module.md",
+    "domain": "devops-sre",
+    "subcategory": "infrastructure-as-code",
+    "summary": "Production Terraform/OpenTofu module architecture, variable validation, and state isolation design",
+    "output_artifact": "TERRAFORM_OPENTOFU_MODULE_SPEC.md",
+    "size_bytes": 4423
+  },
+  {
+    "id": "testing",
+    "legacy_filename": "TESTING-PROMPT.md",
+    "new_path": "software-engineering/ops-performance/testing.md",
+    "domain": "software-engineering",
+    "subcategory": "ops-performance",
+    "summary": "You are a Principal Software Engineer and Testing Architect executing a comprehensive, project-wide testing run",
+    "output_artifact": "N/A",
+    "size_bytes": 3306
+  },
+  {
+    "id": "threat-model",
+    "legacy_filename": "THREAT-MODEL-PROMPT.md",
+    "new_path": "software-engineering/ops-performance/threat-model.md",
+    "domain": "software-engineering",
+    "subcategory": "ops-performance",
+    "summary": "You are a Principal Application Security Engineer performing a STRIDE threat-modeling pass",
+    "output_artifact": "THREAT_MODEL.md",
+    "size_bytes": 2545
+  },
+  {
+    "id": "user-story-matrix",
+    "legacy_filename": "USER-STORY-MATRIX-PROMPT.md",
+    "new_path": "product-venture/product-specs/user-story-matrix.md",
+    "domain": "product-venture",
+    "subcategory": "product-specs",
+    "summary": "Autonomous user-story and acceptance-criteria matrix with INVEST sizing and dependency mapping",
+    "output_artifact": "USER_STORY_MATRIX.md",
+    "size_bytes": 2384
+  },
+  {
+    "id": "video-frame-consistency-auditor",
+    "legacy_filename": "VIDEO-FRAME-CONSISTENCY-AUDITOR-PROMPT.md",
+    "new_path": "video-generation/image-to-video/video-frame-consistency-auditor.md",
+    "domain": "video-generation",
+    "subcategory": "image-to-video",
+    "summary": "Autonomous image-to-video frame-consistency auditor.",
+    "output_artifact": "VIDEO_FRAME_CONSISTENCY_AUDITOR.md",
+    "size_bytes": 1941
+  },
+  {
+    "id": "video-motion-coherence-auditor",
+    "legacy_filename": "VIDEO-MOTION-COHERENCE-AUDITOR-PROMPT.md",
+    "new_path": "video-generation/text-to-video/video-motion-coherence-auditor.md",
+    "domain": "video-generation",
+    "subcategory": "text-to-video",
+    "summary": "Autonomous video motion-coherence and jitter auditor.",
+    "output_artifact": "VIDEO_MOTION_COHERENCE_AUDITOR.md",
+    "size_bytes": 1804
+  },
+  {
+    "id": "video-prompt-storyboard-auditor",
+    "legacy_filename": "VIDEO-PROMPT-STORYBOARD-AUDITOR-PROMPT.md",
+    "new_path": "video-generation/text-to-video/video-prompt-storyboard-auditor.md",
+    "domain": "video-generation",
+    "subcategory": "text-to-video",
+    "summary": "Autonomous video prompt storyboard and continuity auditor.",
+    "output_artifact": "VIDEO_PROMPT_STORYBOARD_AUDITOR.md",
+    "size_bytes": 1854
+  },
+  {
+    "id": "video-storyboard-pipeline",
+    "legacy_filename": "VIDEO-STORYBOARD-PIPELINE-PROMPT.md",
+    "new_path": "video-generation/text-to-video/video-storyboard-pipeline.md",
+    "domain": "video-generation",
+    "subcategory": "text-to-video",
+    "summary": "Autonomous multi-shot video storyboard generator and cinematic prompt suite for Sora, CogVideoX, and Runway Gen-2",
+    "output_artifact": "VIDEO_STORYBOARD_PIPELINE.md",
+    "size_bytes": 5445
+  },
+  {
+    "id": "windows-safetensor-env",
+    "legacy_filename": "WINDOWS-SAFETENSOR-ENV-PROMPT.md",
+    "new_path": "safetensor-fine-tuning/windows/windows-safetensor-env.md",
+    "domain": "safetensor-fine-tuning",
+    "subcategory": "windows",
+    "summary": "Windows AI Systems Engineer setting up WSL2 CUDA drivers, native PyTorch, Windows pagefile management, bitsandbytes-windows binaries, and C++ build tools for Safetensors fine-tuning",
+    "output_artifact": "WINDOWS_SAFETENSOR_ENV.md",
+    "size_bytes": 4034
+  },
+  {
+    "id": "windows-safetensor-pipeline",
+    "legacy_filename": "WINDOWS-SAFETENSOR-PIPELINE-PROMPT.md",
+    "new_path": "safetensor-fine-tuning/windows/windows-safetensor-pipeline.md",
+    "domain": "safetensor-fine-tuning",
+    "subcategory": "windows",
+    "summary": "Windows ML Engineer configuring Kohya_ss, LLaMA-Factory, and web UI/CLI workflows for LoRA/QLoRA fine-tuning of Safetensors models under Windows memory limits",
+    "output_artifact": "WINDOWS_SAFETENSOR_PIPELINE.md",
+    "size_bytes": 3644
+  },
+  {
+    "id": "windows-safetensor-quantization",
+    "legacy_filename": "WINDOWS-SAFETENSOR-QUANTIZATION-PROMPT.md",
+    "new_path": "safetensor-fine-tuning/windows/windows-safetensor-quantization.md",
+    "domain": "safetensor-fine-tuning",
+    "subcategory": "windows",
+    "summary": "Windows Model Deployment Engineer merging LoRA adapters into base Safetensors, verifying tensor precision, executing llama.cpp GGUF conversion, and loading into LM Studio/Ollama on Windows",
+    "output_artifact": "WINDOWS_SAFETENSOR_QUANTIZATION.md",
+    "size_bytes": 3676
+  },
+  {
+    "id": "world-timeline-chronicle",
+    "legacy_filename": "WORLD-TIMELINE-CHRONICLE-PROMPT.md",
+    "new_path": "worldbuilding/lore-systems/world-timeline-chronicle.md",
+    "domain": "worldbuilding",
+    "subcategory": "lore-systems",
+    "summary": "Autonomous fictional historical timeline chronicle, era designation synthesizer, and causality map generator",
+    "output_artifact": "WORLD_TIMELINE_CHRONICLE.md",
+    "size_bytes": 5284
+  },
+  {
+    "id": "zero-trust-iam-audit",
+    "legacy_filename": "ZERO-TRUST-IAM-AUDIT-PROMPT.md",
+    "new_path": "devops-sre/infrastructure-as-code/zero-trust-iam-audit.md",
+    "domain": "devops-sre",
+    "subcategory": "infrastructure-as-code",
+    "summary": "Zero-Trust IAM security policy auditor, least-privilege role deconstruction, and privilege escalation detector",
+    "output_artifact": "ZERO_TRUST_IAM_AUDIT.md",
+    "size_bytes": 4880
   }
 ]

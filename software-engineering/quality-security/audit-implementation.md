@@ -24,3 +24,28 @@ In addition to the `AUDIT.md` findings, actively search for and resolve the foll
 2. If a necessary fix requires a major breaking change, STOP and consult the user before proceeding.
 3. If you analyze a suggestion from `AUDIT.md` and determine that it is technically unwarranted or introduces new risks, STOP and consult the user with your reasoning.
 </execution_protocol>
+
+<output_format>
+Structure `AUDIT_IMPLEMENTATION.md` as follows:
+
+# 🛠️ Audit Implementation Report
+
+## 1. Executive Summary
+- **Total Audit Recommendations Processed:**
+- **Fixes Autonomous Implemented:**
+- **Rejected / Escalated Recommendations:**
+
+## 2. Implemented Fixes & Codebase Defect Resolutions
+| Defect / Audit Item | File & Target | Defect Category | Applied Resolution | Verification Method |
+|---|---|---|---|---|
+| [Audit Item #] | [file:line] | [Bug/Risk/Redundancy/Resilience] | [Description of fix] | [Test/Inspection] |
+
+## 3. Escalations & Technical Rejections
+- **Escalated Breaking Changes:**
+- **Technically Unwarranted Suggestions & Rationale:**
+</output_format>
+
+<target_input>
+[USER: PROVIDE AUDIT.MD LOCATION OR TYPE "EXECUTE" TO BEGIN IMPLEMENTATION RUN]
+</target_input>
+

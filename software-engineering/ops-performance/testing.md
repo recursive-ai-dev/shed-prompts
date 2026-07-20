@@ -25,3 +25,28 @@ Actively scan the codebase and implement testing solutions within these specific
 2. If a module is fundamentally untestable due to tight coupling, hidden side-effects, or massive global state, STOP and consult the user with a proposed refactoring plan before altering the production code.
 3. Verify that all newly added or modified tests execute successfully and do not create cross-test pollution.
 </execution_protocol>
+
+<output_format>
+Structure `TESTING.md` as follows:
+
+# 🧪 Comprehensive Testing & Coverage Blueprint
+
+## 1. Test Suite Audit & Baseline Coverage
+- **Testing Framework Detected:**
+- **Initial Coverage Gaps Identified:**
+- **Stabilized Flaky Tests:**
+
+## 2. Implemented Test Specifications
+| Test Category | Target Module / Component | Test Cases Added | Edge Cases / Boundaries Covered | Verification Status |
+|---|---|---|---|---|
+| [Unit/Integration/Boundary] | [path/to/module] | [Test description] | [Boundary condition] | [Pass/Fail] |
+
+## 3. Untestable Modules & Refactoring Recommendations
+- **Coupling & Side-Effect Blockers:**
+- **Proposed Dependency Injection / Isolation Plan:**
+</output_format>
+
+<target_input>
+[USER: SPECIFY TEST TARGET OR TYPE "EXECUTE TEST SUITE GENERATION" TO BEGIN]
+</target_input>
+

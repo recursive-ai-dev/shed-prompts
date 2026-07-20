@@ -23,3 +23,28 @@ Actively scan the codebase and resolve issues within these specific categories:
 1. Apply fixes autonomously for all clear-cut bugs, inefficiencies, and resilience issues found within the scope. Maintain absolute logical rigor.
 2. If a necessary fix requires a major breaking change or alters the core way the project functions, STOP and consult the user with your reasoning before proceeding.
 </execution_protocol>
+
+<output_format>
+Structure `IMPROVEMENT.md` as follows:
+
+# 🔧 Autonomous Code Improvement & Stabilization Log
+
+## 1. Executive Summary
+- **Scanned Modules / Directories:**
+- **Total Defected Issues Identified:**
+- **Autonomously Resolved Defect Count:**
+
+## 2. Detailed Improvement Manifest
+| Category | File Target | Identified Defect / Flaw | Applied Fix / Refactor | Impact & Verification |
+|---|---|---|---|---|
+| [Bug/Risk/Redundancy/Dead Code/Resilience] | [path/to/file.ext] | [Description] | [Applied change] | [Verification] |
+
+## 3. Escalations & Breaking Changes (If Any)
+- **Proposed Breaking Changes:**
+- **Architectural Recommendations:**
+</output_format>
+
+<target_input>
+[USER: SPECIFY CODEBASE PATH OR TYPE "RUN IMPROVEMENT PASS" TO BEGIN]
+</target_input>
+

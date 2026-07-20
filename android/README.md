@@ -4,14 +4,32 @@ This module contains specialized prompts for Android mobile development, targeti
 
 ---
 
+<a id="top"></a>
+## 📋 Table of Contents
+- [📁 Subcategories & Prompts](#-subcategories--prompts)
+  - [🏛️ Architecture & Refactoring (`architecture-refactoring/`)](#subcat-architecture-refactoring) ([`📁 architecture-refactoring/`](file:///home/sysadmin/Downloads/shed-prompts/android/architecture-refactoring/))
+  - [🔒 Quality & Security (`quality-security/`)](#subcat-quality-security) ([`📁 quality-security/`](file:///home/sysadmin/Downloads/shed-prompts/android/quality-security/))
+  - [🚀 Ops & Performance (`ops-performance/`)](#subcat-ops-performance) ([`📁 ops-performance/`](file:///home/sysadmin/Downloads/shed-prompts/android/ops-performance/))
+- [⚡ Recommended Android Pipeline](#pipeline)
+
+---
+
+
 ## 📁 Subcategories & Prompts
 
+<a id="subcat-architecture-refactoring"></a>
 ### 🏛️ Architecture & Refactoring (`architecture-refactoring/`)
 | Prompt | Target Artifact | Description |
 |---|---|---|
 | [`android-architecture.md`](file:///home/sysadmin/Downloads/shed-prompts/android/architecture-refactoring/android-architecture.md) | `ANDROID_ARCHITECTURE.md` | Process death, configuration change, and lifecycle state management architecture. |
+| [`android-compose-migration-audit.md`](file:///home/sysadmin/Downloads/shed-prompts/android/architecture-refactoring/android-compose-migration-audit.md) | `ANDROID_COMPOSE_MIGRATION_AUDIT.md` | Autonomous static audit & jetpack compose refactoring blueprint for legacy Android XML layouts and views. |
 | [`android-migration.md`](file:///home/sysadmin/Downloads/shed-prompts/android/architecture-refactoring/android-migration.md) | `ANDROID_MIGRATION.md` | SDK version upgrades, Kotlin/Compose migrations, and major library contract updates. |
 
+
+[⬆ Back to Top](#top)
+
+---
+<a id="subcat-quality-security"></a>
 ### 🔒 Quality & Security (`quality-security/`)
 | Prompt | Target Artifact | Description |
 |---|---|---|
@@ -21,6 +39,11 @@ This module contains specialized prompts for Android mobile development, targeti
 | [`android-security.md`](file:///home/sysadmin/Downloads/shed-prompts/android/quality-security/android-security.md) | `ANDROID_SECURITY.md` | Application security, APK hardening, and vulnerability audit. |
 | [`android-testing.md`](file:///home/sysadmin/Downloads/shed-prompts/android/quality-security/android-testing.md) | `ANDROID_TESTING.md` | Unit, instrumented, and UI testing suite coverage pass. |
 
+
+[⬆ Back to Top](#top)
+
+---
+<a id="subcat-ops-performance"></a>
 ### 🚀 Ops & Performance (`ops-performance/`)
 | Prompt | Target Artifact | Description |
 |---|---|---|
@@ -32,6 +55,11 @@ This module contains specialized prompts for Android mobile development, targeti
 
 ---
 
+
+[⬆ Back to Top](#top)
+
+---
+<a id="pipeline"></a>
 ## ⚡ Recommended Android Pipeline
 
 ```mermaid
@@ -41,3 +69,5 @@ graph TD
     C --> D["android-testing.md"]
     D --> E["android-release.md"]
 ```
+
+[⬆ Back to Top](#top)
