@@ -27,8 +27,6 @@ Each prompt is designed to act as an autonomous agentic persona with strict `<sy
   - [🚀 DevOps, Cloud Infrastructure & SRE (16 Prompts)](#devops-cloud-infrastructure-sre-16-prompts)
   - [🕹️ Game Development & Interactive Systems (16 Prompts)](#game-development-interactive-systems-16-prompts)
 - [🛠️ CLI Utilities & Tooling](#-cli-utilities--tooling)
-- [🔄 Legacy Filename Reference](#-legacy-filename-reference)
-
 ---
 
 
