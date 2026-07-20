@@ -1,0 +1,422 @@
+[
+  {
+    "id": "android-a11y",
+    "legacy_filename": "ANDROID-A11Y-PROMPT.md",
+    "new_path": "android/quality-security/android-a11y.md",
+    "domain": "android",
+    "subcategory": "quality-security",
+    "summary": "You are an Accessibility Engineer performing an Android accessibility compliance audit and remediation pass, targeting WCAG 2",
+    "output_artifact": "ANDROID_A11Y.md",
+    "size_bytes": 4025
+  },
+  {
+    "id": "android-architecture",
+    "legacy_filename": "ANDROID-ARCHITECTURE-PROMPT.md",
+    "new_path": "android/architecture-refactoring/android-architecture.md",
+    "domain": "android",
+    "subcategory": "architecture-refactoring",
+    "summary": "You are a Principal Android Engineer designing or evaluating the architecture of an Android application (Kotlin, Jetpack, Gradle)",
+    "output_artifact": "ANDROID_ARCHITECTURE.md",
+    "size_bytes": 4097
+  },
+  {
+    "id": "android-audit",
+    "legacy_filename": "ANDROID-AUDIT-PROMPT.md",
+    "new_path": "android/quality-security/android-audit.md",
+    "domain": "android",
+    "subcategory": "quality-security",
+    "summary": "You are a Lead Android Engineer performing a strict, read-only code quality audit of an Android codebase (Kotlin/Java, Gradle)",
+    "output_artifact": "ANDROID_AUDIT.md",
+    "size_bytes": 3489
+  },
+  {
+    "id": "android-dependency",
+    "legacy_filename": "ANDROID-DEPENDENCY-PROMPT.md",
+    "new_path": "android/ops-performance/android-dependency.md",
+    "domain": "android",
+    "subcategory": "ops-performance",
+    "summary": "You are an expert Dependency and Security Engineer for an Android/Gradle project",
+    "output_artifact": "ANDROID_DEPENDENCY_REPORT.md",
+    "size_bytes": 4103
+  },
+  {
+    "id": "android-i18n",
+    "legacy_filename": "ANDROID-I18N-PROMPT.md",
+    "new_path": "android/ops-performance/android-i18n.md",
+    "domain": "android",
+    "subcategory": "ops-performance",
+    "summary": "You are an Internationalization Engineer preparing an Android app for multi-locale and RTL support",
+    "output_artifact": "ANDROID_I18N.md",
+    "size_bytes": 4260
+  },
+  {
+    "id": "android-migration",
+    "legacy_filename": "ANDROID-MIGRATION-PROMPT.md",
+    "new_path": "android/architecture-refactoring/android-migration.md",
+    "domain": "android",
+    "subcategory": "architecture-refactoring",
+    "summary": "You are a Lead Android Engineer executing a deliberate, breaking-change migration \u2014 a `targetSdkVersion` bump, Java\u2192Kotlin conversion, View system\u2192Jetpack Compose migration, or a major library's API contract change (e",
+    "output_artifact": "ANDROID_MIGRATION.md",
+    "size_bytes": 4902
+  },
+  {
+    "id": "android-observability",
+    "legacy_filename": "ANDROID-OBSERVABILITY-PROMPT.md",
+    "new_path": "android/ops-performance/android-observability.md",
+    "domain": "android",
+    "subcategory": "ops-performance",
+    "summary": "You are a Site Reliability Engineer performing an observability instrumentation pass on an Android app",
+    "output_artifact": "ANDROID_OBSERVABILITY.md",
+    "size_bytes": 4537
+  },
+  {
+    "id": "android-performance",
+    "legacy_filename": "ANDROID-PERFORMANCE-PROMPT.md",
+    "new_path": "android/ops-performance/android-performance.md",
+    "domain": "android",
+    "subcategory": "ops-performance",
+    "summary": "You are a Performance Engineer performing a profiling-driven optimization pass on an Android application",
+    "output_artifact": "ANDROID_PERFORMANCE.md",
+    "size_bytes": 4392
+  },
+  {
+    "id": "android-permissions",
+    "legacy_filename": "ANDROID-PERMISSIONS-PROMPT.md",
+    "new_path": "android/quality-security/android-permissions.md",
+    "domain": "android",
+    "subcategory": "quality-security",
+    "summary": "You are an Android Platform Engineer performing a permissions and runtime-privacy audit",
+    "output_artifact": "ANDROID_PERMISSIONS.md",
+    "size_bytes": 3644
+  },
+  {
+    "id": "android-release",
+    "legacy_filename": "ANDROID-RELEASE-PROMPT.md",
+    "new_path": "android/ops-performance/android-release.md",
+    "domain": "android",
+    "subcategory": "ops-performance",
+    "summary": "You are a Lead Release Engineer taking an Android project from its current state to a signed, Play-Store-ready App Bundle (AAB) and/or installable APK in a single autonomous pass",
+    "output_artifact": "ANDROID_RELEASE.md",
+    "size_bytes": 4787
+  },
+  {
+    "id": "android-security",
+    "legacy_filename": "ANDROID-SECURITY-PROMPT.md",
+    "new_path": "android/quality-security/android-security.md",
+    "domain": "android",
+    "subcategory": "quality-security",
+    "summary": "You are a Principal Application Security Engineer performing a strict Android/APK security audit and remediation pass",
+    "output_artifact": "ANDROID_SECURITY.md",
+    "size_bytes": 5351
+  },
+  {
+    "id": "android-testing",
+    "legacy_filename": "ANDROID-TESTING-PROMPT.md",
+    "new_path": "android/quality-security/android-testing.md",
+    "domain": "android",
+    "subcategory": "quality-security",
+    "summary": "You are a Principal Android Engineer and Testing Architect executing a comprehensive, project-wide testing run across unit, instrumented, and UI test layers",
+    "output_artifact": "ANDROID_TESTING.md",
+    "size_bytes": 3833
+  },
+  {
+    "id": "a11y",
+    "legacy_filename": "A11Y-PROMPT.md",
+    "new_path": "software-engineering/quality-security/a11y.md",
+    "domain": "software-engineering",
+    "subcategory": "quality-security",
+    "summary": "You are an Accessibility Engineer performing a WCAG 2",
+    "output_artifact": "A11Y.md",
+    "size_bytes": 3167
+  },
+  {
+    "id": "audit-implementation",
+    "legacy_filename": "AUDIT-IMPLEMENTATION-PROMPT.md",
+    "new_path": "software-engineering/quality-security/audit-implementation.md",
+    "domain": "software-engineering",
+    "subcategory": "quality-security",
+    "summary": "You are a Principal Software Engineer executing a rigorous code implementation run",
+    "output_artifact": "N/A",
+    "size_bytes": 2165
+  },
+  {
+    "id": "audit",
+    "legacy_filename": "AUDIT-PROMPT.md",
+    "new_path": "software-engineering/quality-security/audit.md",
+    "domain": "software-engineering",
+    "subcategory": "quality-security",
+    "summary": "You are a Lead Software Engineer performing a strict, read-only code quality audit",
+    "output_artifact": "AUDIT.md",
+    "size_bytes": 1960
+  },
+  {
+    "id": "bundle",
+    "legacy_filename": "BUNDLE-PROMPT.md",
+    "new_path": "software-engineering/ops-performance/bundle.md",
+    "domain": "software-engineering",
+    "subcategory": "ops-performance",
+    "summary": "You are a Lead Release Engineer",
+    "output_artifact": "RELEASE.md",
+    "size_bytes": 5288
+  },
+  {
+    "id": "changelog",
+    "legacy_filename": "CHANGELOG-PROMPT.md",
+    "new_path": "software-engineering/ops-performance/changelog.md",
+    "domain": "software-engineering",
+    "subcategory": "ops-performance",
+    "summary": "You are a Release Manager generating a `CHANGELOG",
+    "output_artifact": "N/A",
+    "size_bytes": 2699
+  },
+  {
+    "id": "dependency",
+    "legacy_filename": "DEPENDENCY-PROMPT.md",
+    "new_path": "software-engineering/quality-security/dependency.md",
+    "domain": "software-engineering",
+    "subcategory": "quality-security",
+    "summary": "You are an expert Dependency and Security Engineer",
+    "output_artifact": "N/A",
+    "size_bytes": 2586
+  },
+  {
+    "id": "feature",
+    "legacy_filename": "FEATURE-PROMPT.md",
+    "new_path": "software-engineering/product-strategy/feature.md",
+    "domain": "software-engineering",
+    "subcategory": "product-strategy",
+    "summary": "You are a Lead Product Engineer",
+    "output_artifact": "N/A",
+    "size_bytes": 1829
+  },
+  {
+    "id": "i18n",
+    "legacy_filename": "I18N-PROMPT.md",
+    "new_path": "software-engineering/ops-performance/i18n.md",
+    "domain": "software-engineering",
+    "subcategory": "ops-performance",
+    "summary": "You are an Internationalization (i18n) Engineer preparing this codebase for multi-locale support",
+    "output_artifact": "I18N.md",
+    "size_bytes": 3177
+  },
+  {
+    "id": "ideation",
+    "legacy_filename": "IDEATION-PROMPT.md",
+    "new_path": "software-engineering/product-strategy/ideation.md",
+    "domain": "software-engineering",
+    "subcategory": "product-strategy",
+    "summary": "You are a Principal Product Strategist and Technical Feasibility Assessor operating with full autonomy",
+    "output_artifact": "N/A",
+    "size_bytes": 6541
+  },
+  {
+    "id": "improvement",
+    "legacy_filename": "IMPROVEMENT-PROMPT.md",
+    "new_path": "software-engineering/product-strategy/improvement.md",
+    "domain": "software-engineering",
+    "subcategory": "product-strategy",
+    "summary": "You are a Principal Software Engineer executing a proactive code improvement and stabilization run",
+    "output_artifact": "N/A",
+    "size_bytes": 2069
+  },
+  {
+    "id": "migration",
+    "legacy_filename": "MIGRATION-PROMPT.md",
+    "new_path": "software-engineering/architecture/migration.md",
+    "domain": "software-engineering",
+    "subcategory": "architecture",
+    "summary": "You are a Lead Software Engineer executing a deliberate, breaking-change migration \u2014 a major framework, runtime, or library version upgrade (e",
+    "output_artifact": "MIGRATION.md",
+    "size_bytes": 3701
+  },
+  {
+    "id": "modularize",
+    "legacy_filename": "MODULARIZE-PROMPT.md",
+    "new_path": "software-engineering/architecture/modularize.md",
+    "domain": "software-engineering",
+    "subcategory": "architecture",
+    "summary": "You are a Lead Software Architect performing a structural refactor",
+    "output_artifact": "MODULARIZATION.md",
+    "size_bytes": 5722
+  },
+  {
+    "id": "observability",
+    "legacy_filename": "OBSERVABILITY-PROMPT.md",
+    "new_path": "software-engineering/ops-performance/observability.md",
+    "domain": "software-engineering",
+    "subcategory": "ops-performance",
+    "summary": "You are a Site Reliability Engineer performing an observability instrumentation pass",
+    "output_artifact": "OBSERVABILITY.md",
+    "size_bytes": 3106
+  },
+  {
+    "id": "onboarding",
+    "legacy_filename": "ONBOARDING-PROMPT.md",
+    "new_path": "software-engineering/product-strategy/onboarding.md",
+    "domain": "software-engineering",
+    "subcategory": "product-strategy",
+    "summary": "You are a Principal Staff Engineer creating or updating the `ONBOARDING",
+    "output_artifact": "N/A",
+    "size_bytes": 2413
+  },
+  {
+    "id": "performance",
+    "legacy_filename": "PERFORMANCE-PROMPT.md",
+    "new_path": "software-engineering/ops-performance/performance.md",
+    "domain": "software-engineering",
+    "subcategory": "ops-performance",
+    "summary": "You are a Performance Engineer performing a profiling-driven optimization pass",
+    "output_artifact": "PERFORMANCE.md",
+    "size_bytes": 2942
+  },
+  {
+    "id": "postmortem",
+    "legacy_filename": "POSTMORTEM-PROMPT.md",
+    "new_path": "software-engineering/ops-performance/postmortem.md",
+    "domain": "software-engineering",
+    "subcategory": "ops-performance",
+    "summary": "You are a Site Reliability Engineer writing a blameless postmortem for a production incident",
+    "output_artifact": "POSTMORTEM.md",
+    "size_bytes": 2972
+  },
+  {
+    "id": "review",
+    "legacy_filename": "REVIEW-PROMPT.md",
+    "new_path": "software-engineering/quality-security/review.md",
+    "domain": "software-engineering",
+    "subcategory": "quality-security",
+    "summary": "You are a Staff Software Engineer performing a pull request review",
+    "output_artifact": "N/A",
+    "size_bytes": 3073
+  },
+  {
+    "id": "schema",
+    "legacy_filename": "SCHEMA-PROMPT.md",
+    "new_path": "software-engineering/architecture/schema.md",
+    "domain": "software-engineering",
+    "subcategory": "architecture",
+    "summary": "You are a Database Engineer executing a schema evolution with zero-downtime as a hard requirement",
+    "output_artifact": "SCHEMA_MIGRATION.md",
+    "size_bytes": 3950
+  },
+  {
+    "id": "security",
+    "legacy_filename": "SECURITY-PROMPT.md",
+    "new_path": "software-engineering/quality-security/security.md",
+    "domain": "software-engineering",
+    "subcategory": "quality-security",
+    "summary": "You are a Principal Application Security Engineer performing a strict security audit and remediation pass",
+    "output_artifact": "SECURITY.md",
+    "size_bytes": 3669
+  },
+  {
+    "id": "testing",
+    "legacy_filename": "TESTING-PROMPT.md",
+    "new_path": "software-engineering/ops-performance/testing.md",
+    "domain": "software-engineering",
+    "subcategory": "ops-performance",
+    "summary": "You are a Principal Software Engineer and Testing Architect executing a comprehensive, project-wide testing run",
+    "output_artifact": "N/A",
+    "size_bytes": 2488
+  },
+  {
+    "id": "artifact",
+    "legacy_filename": "ARTIFACT-PROMPT.md",
+    "new_path": "worldbuilding/lore-systems/artifact.md",
+    "domain": "worldbuilding",
+    "subcategory": "lore-systems",
+    "summary": "You are an expert worldbuilder and antiquarian for a Brutal Dark Medieval Fantasy RPG",
+    "output_artifact": "N/A",
+    "size_bytes": 5231
+  },
+  {
+    "id": "bestiary",
+    "legacy_filename": "BESTIARY-PROMPT.md",
+    "new_path": "worldbuilding/entities/bestiary.md",
+    "domain": "worldbuilding",
+    "subcategory": "entities",
+    "summary": "You are an expert worldbuilder and field naturalist for a Brutal Dark Medieval Fantasy RPG",
+    "output_artifact": "N/A",
+    "size_bytes": 5023
+  },
+  {
+    "id": "bloodline",
+    "legacy_filename": "BLOODLINE-PROMPT.md",
+    "new_path": "worldbuilding/factions-beliefs/bloodline.md",
+    "domain": "worldbuilding",
+    "subcategory": "factions-beliefs",
+    "summary": "You are an expert worldbuilder and genealogical historian for a Brutal Dark Medieval Fantasy RPG",
+    "output_artifact": "N/A",
+    "size_bytes": 5339
+  },
+  {
+    "id": "character",
+    "legacy_filename": "CHARACTER-PROMPT.md",
+    "new_path": "worldbuilding/entities/character.md",
+    "domain": "worldbuilding",
+    "subcategory": "entities",
+    "summary": "You are an expert worldbuilder and narrative designer for a Brutal Dark Medieval Fantasy RPG",
+    "output_artifact": "N/A",
+    "size_bytes": 3385
+  },
+  {
+    "id": "event",
+    "legacy_filename": "EVENT-PROMPT.md",
+    "new_path": "worldbuilding/lore-systems/event.md",
+    "domain": "worldbuilding",
+    "subcategory": "lore-systems",
+    "summary": "You are an expert worldbuilder and war historian for a Brutal Dark Medieval Fantasy RPG",
+    "output_artifact": "N/A",
+    "size_bytes": 5416
+  },
+  {
+    "id": "faction",
+    "legacy_filename": "FACTION-PROMPT.md",
+    "new_path": "worldbuilding/factions-beliefs/faction.md",
+    "domain": "worldbuilding",
+    "subcategory": "factions-beliefs",
+    "summary": "You are an expert worldbuilder and institutional historian for a Brutal Dark Medieval Fantasy RPG",
+    "output_artifact": "N/A",
+    "size_bytes": 4489
+  },
+  {
+    "id": "location",
+    "legacy_filename": "LOCATION-PROMPT.md",
+    "new_path": "worldbuilding/lore-systems/location.md",
+    "domain": "worldbuilding",
+    "subcategory": "lore-systems",
+    "summary": "You are an expert worldbuilder and cartographic historian for a Brutal Dark Medieval Fantasy RPG",
+    "output_artifact": "N/A",
+    "size_bytes": 4810
+  },
+  {
+    "id": "magic",
+    "legacy_filename": "MAGIC-PROMPT.md",
+    "new_path": "worldbuilding/lore-systems/magic.md",
+    "domain": "worldbuilding",
+    "subcategory": "lore-systems",
+    "summary": "You are an expert worldbuilder and arcane theorist for a Brutal Dark Medieval Fantasy RPG",
+    "output_artifact": "N/A",
+    "size_bytes": 5968
+  },
+  {
+    "id": "pantheon",
+    "legacy_filename": "PANTHEON-PROMPT.md",
+    "new_path": "worldbuilding/factions-beliefs/pantheon.md",
+    "domain": "worldbuilding",
+    "subcategory": "factions-beliefs",
+    "summary": "You are an expert worldbuilder and cosmologist for a Brutal Dark Medieval Fantasy RPG",
+    "output_artifact": "N/A",
+    "size_bytes": 5517
+  },
+  {
+    "id": "religion",
+    "legacy_filename": "RELIGION-PROMPT.md",
+    "new_path": "worldbuilding/factions-beliefs/religion.md",
+    "domain": "worldbuilding",
+    "subcategory": "factions-beliefs",
+    "summary": "You are an expert worldbuilder and theological historian for a Brutal Dark Medieval Fantasy RPG",
+    "output_artifact": "N/A",
+    "size_bytes": 5133
+  }
+]
