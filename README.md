@@ -1,6 +1,6 @@
 # 📚 Shed Prompts: Modular Prompt Architecture Library
 
-Welcome to **Shed Prompts**. This collection provides 193 battle-tested, high-precision system prompts categorized into modular domain hierarchies: **Android Engineering**, **General Software Engineering**, **Data & Analytics**, **Dark Fantasy RPG Worldbuilding**, **Autobiography & Memoir Co-Creation**, **Accelerated Learning & Pedagogical Architecture**, **Product Leadership & Venture Architecture**, **Legal Tech, Regulatory Compliance & IP Audit**, **Local Safetensor Model Fine-Tuning**, **Custom AI Architecture & LLM Engineering**, **Open-Weight Music & Audio Generation**, **Open-Weight Local Image Generation**, **Open-Weight Local Video Generation**, **Game Development & Interactive Systems**, and **DevOps, Cloud Infrastructure & SRE, and Scientific Method, Research & Academic Publishing**.
+Welcome to **Shed Prompts**. This collection provides 204 battle-tested, high-precision system prompts categorized into modular domain hierarchies: **Android Engineering**, **General Software Engineering**, **Natural Language Engineering**, **Data & Analytics**, **Dark Fantasy RPG Worldbuilding**, **Autobiography & Memoir Co-Creation**, **Accelerated Learning & Pedagogical Architecture**, **Product Leadership & Venture Architecture**, **Legal Tech, Regulatory Compliance & IP Audit**, **Local Safetensor Model Fine-Tuning**, **Custom AI Architecture & LLM Engineering**, **Open-Weight Music & Audio Generation**, **Open-Weight Local Image Generation**, **Open-Weight Local Video Generation**, **Game Development & Interactive Systems**, and **DevOps, Cloud Infrastructure & SRE, and Scientific Method, Research & Academic Publishing**.
 
 Each prompt is designed to act as an autonomous agentic persona with strict `<system_instructions>`, workflow constraints, and deterministic `<output_format>` requirements.
 
@@ -21,6 +21,7 @@ Each prompt is designed to act as an autonomous agentic persona with strict `<sy
   - [⚙️ Safetensor Local Model Fine-Tuning (10 Prompts)](#safetensor-local-model-fine-tuning-10-prompts)
   - [🧠 Custom AI Architecture & LLM Engineering (10 Prompts)](#custom-ai-architecture-llm-engineering-10-prompts)
   - [🎵 Open-Weight Music & Audio Generation (8 Prompts)](#open-weight-music-audio-generation-8-prompts)
+  - [🧩 Natural Language Engineering (11 Prompts)](#natural-language-engineering-11-prompts)
   - [🎨 Open-Weight Local Image Generation (7 Prompts)](#open-weight-local-image-generation-7-prompts)
   - [🎬 Open-Weight Local Video Generation (7 Prompts)](#open-weight-local-video-generation-7-prompts)
   - [💡 Product Leadership & Venture Architecture (13 Prompts)](#product-leadership-venture-architecture-13-prompts)
@@ -208,6 +209,23 @@ shed-prompts/
 │       ├── music-structure-sectioner.md
 │       ├── musicgen-pipeline.md
 │       └── stable-audio-pipeline.md
+├── 🧩 natural/
+│   ├── README.md                   # Category overview & pipeline guide
+│   ├── architecture-refactoring/
+│   │   ├── improvement.md
+│   │   └── modularize.md
+│   ├── ops-performance/
+│   │   ├── performance.md
+│   │   └── release.md
+│   ├── quality-security/
+│   │   ├── audit.md
+│   │   ├── code-review.md
+│   │   ├── linux-sec.md
+│   │   └── webapp.md
+│   └── specialized-reviews/
+│       ├── aichat-app.md
+│       ├── game-dev.md
+│       └── jupyter.md
 ├── 🎓 pedagogy-learning/
 │   ├── README.md                   # Category overview & pipeline guide
 │   ├── curriculum-design/
@@ -557,6 +575,26 @@ shed-prompts/
 [⬆ Back to Top](#top)
 
 ---
+### 🧩 Natural Language Engineering (11 Prompts)
+| Prompt ID | Relative Path | Target Artifact | Short Description |
+|---|---|---|---|
+| `natural-aichat-app` | [`natural/specialized-reviews/aichat-app.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/specialized-reviews/aichat-app.md) | `AI_CHAT_APP_AUDIT.md` | LLM/chat application audit for streaming latency, RAG context, model resilience, prompt injection, and output safety. |
+| `natural-audit` | [`natural/quality-security/audit.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/audit.md) | `CODEBASE_AUDIT.md` | Read-only audit of real bugs, correctness risks, crashes, silent failures, waste, and dead code. |
+| `natural-code-review` | [`natural/quality-security/code-review.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/code-review.md) | `N/A` | Strict pull-request review focused on changed-code correctness, blast radius, regressions, tests, and safety. |
+| `natural-game-dev` | [`natural/specialized-reviews/game-dev.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/specialized-reviews/game-dev.md) | `GAME_FEATURE_REVIEW.md` | Gameplay code review for frame budgets, state determinism, async races, memory, and layer coupling. |
+| `natural-improvement` | [`natural/architecture-refactoring/improvement.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/architecture-refactoring/improvement.md) | `CODE_STABILIZATION_REPORT.md` | Proactive stabilization pass for real logic bugs, race conditions, stale state, silent failures, and null-data crashes. |
+| `natural-jupyter` | [`natural/specialized-reviews/jupyter.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/specialized-reviews/jupyter.md) | `JUPYTER_PRODUCTION_REVIEW.md` | Notebook production-readiness review for clean execution, data efficiency, reproducibility, and model artifact safety. |
+| `natural-linux-sec` | [`natural/quality-security/linux-sec.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/linux-sec.md) | `LINUX_SECURITY_AUDIT.md` | Linux configuration and shell-script audit for privilege escalation, injection, unsafe permissions, isolation, and secrets. |
+| `natural-modularize` | [`natural/architecture-refactoring/modularize.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/architecture-refactoring/modularize.md) | `MODULARIZATION.md` | Behavioral-parity refactor that splits oversized files into cohesive modules and updates every call site. |
+| `natural-performance` | [`natural/ops-performance/performance.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/ops-performance/performance.md) | `PERFORMANCE_AUDIT.md` | Measurement-driven audit of hot paths, queries, I/O, rendering, payloads, memory, and cache invalidation. |
+| `natural-release` | [`natural/ops-performance/release.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/ops-performance/release.md) | `RELEASE_READINESS.md` | Production-readiness sweep for TODOs, stubs, mock data, broken routes, environment gaps, dependencies, builds, and tests. |
+| `natural-webapp` | [`natural/quality-security/webapp.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/webapp.md) | `WEBAPP_REVIEW.md` | Full-stack web application review covering frontend UX, backend/API integrity, state, authentication, and performance. |
+
+---
+
+[⬆ Back to Top](#top)
+
+---
 ### 🎨 Open-Weight Local Image Generation (7 Prompts)
 | Prompt ID | Relative Path | Target Artifact | Short Description |
 |---|---|---|---|
@@ -664,7 +702,7 @@ shed-prompts/
 ## 🛠️ CLI Utilities & Tooling
 
 ### 1. Validate Prompt Suite
-Verify all 193 prompts exist and conform to XML tag specifications:
+Verify all 204 prompts exist and conform to XML tag specifications:
 ```bash
 python3 validate_prompts.py
 ```

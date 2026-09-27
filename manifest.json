@@ -1380,6 +1380,116 @@
     "size_bytes": 4309
   },
   {
+    "id": "natural-aichat-app",
+    "legacy_filename": "NATURAL-AICHAT-APP-PROMPT.md",
+    "new_path": "natural/specialized-reviews/aichat-app.md",
+    "domain": "natural",
+    "subcategory": "specialized-reviews",
+    "summary": "LLM/chat application audit for streaming latency, RAG context, model resilience, prompt injection, and output safety.",
+    "output_artifact": "AI_CHAT_APP_AUDIT.md",
+    "size_bytes": 2482
+  },
+  {
+    "id": "natural-audit",
+    "legacy_filename": "NATURAL-AUDIT-PROMPT.md",
+    "new_path": "natural/quality-security/audit.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Read-only audit of real bugs, correctness risks, crashes, silent failures, waste, and dead code.",
+    "output_artifact": "CODEBASE_AUDIT.md",
+    "size_bytes": 2077
+  },
+  {
+    "id": "natural-code-review",
+    "legacy_filename": "NATURAL-CODE-REVIEW-PROMPT.md",
+    "new_path": "natural/quality-security/code-review.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Strict pull-request review focused on changed-code correctness, blast radius, regressions, tests, and safety.",
+    "output_artifact": "N/A",
+    "size_bytes": 2286
+  },
+  {
+    "id": "natural-game-dev",
+    "legacy_filename": "NATURAL-GAME-DEV-PROMPT.md",
+    "new_path": "natural/specialized-reviews/game-dev.md",
+    "domain": "natural",
+    "subcategory": "specialized-reviews",
+    "summary": "Gameplay code review for frame budgets, state determinism, async races, memory, and layer coupling.",
+    "output_artifact": "GAME_FEATURE_REVIEW.md",
+    "size_bytes": 2354
+  },
+  {
+    "id": "natural-improvement",
+    "legacy_filename": "NATURAL-IMPROVEMENT-PROMPT.md",
+    "new_path": "natural/architecture-refactoring/improvement.md",
+    "domain": "natural",
+    "subcategory": "architecture-refactoring",
+    "summary": "Proactive stabilization pass for real logic bugs, race conditions, stale state, silent failures, and null-data crashes.",
+    "output_artifact": "CODE_STABILIZATION_REPORT.md",
+    "size_bytes": 2305
+  },
+  {
+    "id": "natural-jupyter",
+    "legacy_filename": "NATURAL-JUPYTER-PROMPT.md",
+    "new_path": "natural/specialized-reviews/jupyter.md",
+    "domain": "natural",
+    "subcategory": "specialized-reviews",
+    "summary": "Notebook production-readiness review for clean execution, data efficiency, reproducibility, and model artifact safety.",
+    "output_artifact": "JUPYTER_PRODUCTION_REVIEW.md",
+    "size_bytes": 2554
+  },
+  {
+    "id": "natural-linux-sec",
+    "legacy_filename": "NATURAL-LINUX-SEC-PROMPT.md",
+    "new_path": "natural/quality-security/linux-sec.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Linux configuration and shell-script audit for privilege escalation, injection, unsafe permissions, isolation, and secrets.",
+    "output_artifact": "LINUX_SECURITY_AUDIT.md",
+    "size_bytes": 2511
+  },
+  {
+    "id": "natural-modularize",
+    "legacy_filename": "NATURAL-MODULARIZE-PROMPT.md",
+    "new_path": "natural/architecture-refactoring/modularize.md",
+    "domain": "natural",
+    "subcategory": "architecture-refactoring",
+    "summary": "Behavioral-parity refactor that splits oversized files into cohesive modules and updates every call site.",
+    "output_artifact": "MODULARIZATION.md",
+    "size_bytes": 2508
+  },
+  {
+    "id": "natural-performance",
+    "legacy_filename": "NATURAL-PERFORMANCE-PROMPT.md",
+    "new_path": "natural/ops-performance/performance.md",
+    "domain": "natural",
+    "subcategory": "ops-performance",
+    "summary": "Measurement-driven audit of hot paths, queries, I/O, rendering, payloads, memory, and cache invalidation.",
+    "output_artifact": "PERFORMANCE_AUDIT.md",
+    "size_bytes": 2516
+  },
+  {
+    "id": "natural-release",
+    "legacy_filename": "NATURAL-RELEASE-PROMPT.md",
+    "new_path": "natural/ops-performance/release.md",
+    "domain": "natural",
+    "subcategory": "ops-performance",
+    "summary": "Production-readiness sweep for TODOs, stubs, mock data, broken routes, environment gaps, dependencies, builds, and tests.",
+    "output_artifact": "RELEASE_READINESS.md",
+    "size_bytes": 2733
+  },
+  {
+    "id": "natural-webapp",
+    "legacy_filename": "NATURAL-WEBAPP-PROMPT.md",
+    "new_path": "natural/quality-security/webapp.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Full-stack web application review covering frontend UX, backend/API integrity, state, authentication, and performance.",
+    "output_artifact": "WEBAPP_REVIEW.md",
+    "size_bytes": 2382
+  },
+  {
     "id": "observability",
     "legacy_filename": "OBSERVABILITY-PROMPT.md",
     "new_path": "software-engineering/ops-performance/observability.md",
