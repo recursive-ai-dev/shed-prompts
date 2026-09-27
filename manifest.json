@@ -1380,6 +1380,526 @@
     "size_bytes": 4309
   },
   {
+    "id": "natural-accessibility-review",
+    "legacy_filename": "NATURAL-ACCESSIBILITY-REVIEW-PROMPT.md",
+    "new_path": "natural/quality-security/accessibility-review.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Reviews semantics, keyboard access, focus, assistive technology behavior, forms, motion, contrast, and recovery.",
+    "output_artifact": "ACCESSIBILITY_REVIEW.md",
+    "size_bytes": 2430
+  },
+  {
+    "id": "natural-aichat-app",
+    "legacy_filename": "NATURAL-AICHAT-APP-PROMPT.md",
+    "new_path": "natural/specialized-reviews/aichat-app.md",
+    "domain": "natural",
+    "subcategory": "specialized-reviews",
+    "summary": "LLM/chat application audit for streaming latency, RAG context, model resilience, prompt injection, and output safety.",
+    "output_artifact": "AI_CHAT_APP_AUDIT.md",
+    "size_bytes": 2482
+  },
+  {
+    "id": "natural-api-contract-migration",
+    "legacy_filename": "NATURAL-API-CONTRACT-MIGRATION-PROMPT.md",
+    "new_path": "natural/architecture-refactoring/api-contract-migration.md",
+    "domain": "natural",
+    "subcategory": "architecture-refactoring",
+    "summary": "Plans additive or breaking API and event contract migrations with consumer mapping, rollout sequencing, and rollback safety.",
+    "output_artifact": "API_CONTRACT_MIGRATION.md",
+    "size_bytes": 2373
+  },
+  {
+    "id": "natural-api-latency",
+    "legacy_filename": "NATURAL-API-LATENCY-PROMPT.md",
+    "new_path": "natural/ops-performance/api-latency.md",
+    "domain": "natural",
+    "subcategory": "ops-performance",
+    "summary": "Measures API latency and tail behavior across queues, code, dependencies, serialization, retries, and connection pools.",
+    "output_artifact": "API_LATENCY_AUDIT.md",
+    "size_bytes": 2338
+  },
+  {
+    "id": "natural-api-security-review",
+    "legacy_filename": "NATURAL-API-SECURITY-REVIEW-PROMPT.md",
+    "new_path": "natural/quality-security/api-security-review.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Reviews API routes for authorization, validation, data exposure, abuse, rate control, replay, webhooks, and resource exhaustion.",
+    "output_artifact": "API_SECURITY_REVIEW.md",
+    "size_bytes": 2465
+  },
+  {
+    "id": "natural-architecture-boundary-audit",
+    "legacy_filename": "NATURAL-ARCHITECTURE-BOUNDARY-AUDIT-PROMPT.md",
+    "new_path": "natural/architecture-refactoring/architecture-boundary-audit.md",
+    "domain": "natural",
+    "subcategory": "architecture-refactoring",
+    "summary": "Audits module and service boundaries, hidden coupling, dependency direction, and incremental refactoring risk.",
+    "output_artifact": "ARCHITECTURE_BOUNDARY_AUDIT.md",
+    "size_bytes": 2427
+  },
+  {
+    "id": "natural-audit",
+    "legacy_filename": "NATURAL-AUDIT-PROMPT.md",
+    "new_path": "natural/quality-security/audit.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Read-only audit of real bugs, correctness risks, crashes, silent failures, waste, and dead code.",
+    "output_artifact": "CODEBASE_AUDIT.md",
+    "size_bytes": 2077
+  },
+  {
+    "id": "natural-auth-authorization-review",
+    "legacy_filename": "NATURAL-AUTH-AUTHORIZATION-REVIEW-PROMPT.md",
+    "new_path": "natural/quality-security/auth-authorization-review.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Audits authentication, sessions, authorization, tenant isolation, tokens, administrative actions, and access-control tests.",
+    "output_artifact": "AUTH_AUTHORIZATION_REVIEW.md",
+    "size_bytes": 2456
+  },
+  {
+    "id": "natural-browser-extension",
+    "legacy_filename": "NATURAL-BROWSER-EXTENSION-PROMPT.md",
+    "new_path": "natural/specialized-reviews/browser-extension.md",
+    "domain": "natural",
+    "subcategory": "specialized-reviews",
+    "summary": "Reviews browser extension permissions, contexts, messaging, storage, DOM access, lifecycle, and cross-browser behavior.",
+    "output_artifact": "BROWSER_EXTENSION_REVIEW.md",
+    "size_bytes": 2475
+  },
+  {
+    "id": "natural-build-performance",
+    "legacy_filename": "NATURAL-BUILD-PERFORMANCE-PROMPT.md",
+    "new_path": "natural/ops-performance/build-performance.md",
+    "domain": "natural",
+    "subcategory": "ops-performance",
+    "summary": "Profiles clean and incremental builds, critical paths, cache invalidation, CI variance, and reproducibility risks.",
+    "output_artifact": "BUILD_PERFORMANCE_AUDIT.md",
+    "size_bytes": 2387
+  },
+  {
+    "id": "natural-cache-strategy",
+    "legacy_filename": "NATURAL-CACHE-STRATEGY-PROMPT.md",
+    "new_path": "natural/ops-performance/cache-strategy.md",
+    "domain": "natural",
+    "subcategory": "ops-performance",
+    "summary": "Reviews cache keys, scope, TTL, invalidation, stampede control, privacy boundaries, and correctness under failure.",
+    "output_artifact": "CACHE_STRATEGY_REVIEW.md",
+    "size_bytes": 2399
+  },
+  {
+    "id": "natural-cli-tool",
+    "legacy_filename": "NATURAL-CLI-TOOL-PROMPT.md",
+    "new_path": "natural/specialized-reviews/cli-tool.md",
+    "domain": "natural",
+    "subcategory": "specialized-reviews",
+    "summary": "Reviews CLI contracts, argument parsing, exit codes, streams, signals, filesystem safety, automation, and discoverability.",
+    "output_artifact": "CLI_TOOL_REVIEW.md",
+    "size_bytes": 2474
+  },
+  {
+    "id": "natural-code-review",
+    "legacy_filename": "NATURAL-CODE-REVIEW-PROMPT.md",
+    "new_path": "natural/quality-security/code-review.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Strict pull-request review focused on changed-code correctness, blast radius, regressions, tests, and safety.",
+    "output_artifact": "N/A",
+    "size_bytes": 2286
+  },
+  {
+    "id": "natural-data-pipeline",
+    "legacy_filename": "NATURAL-DATA-PIPELINE-PROMPT.md",
+    "new_path": "natural/specialized-reviews/data-pipeline.md",
+    "domain": "natural",
+    "subcategory": "specialized-reviews",
+    "summary": "Reviews data contracts, quality, idempotency, checkpoints, late data, retries, backfills, lineage, and privacy.",
+    "output_artifact": "DATA_PIPELINE_REVIEW.md",
+    "size_bytes": 2461
+  },
+  {
+    "id": "natural-data-privacy-review",
+    "legacy_filename": "NATURAL-DATA-PRIVACY-REVIEW-PROMPT.md",
+    "new_path": "natural/quality-security/data-privacy-review.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Reviews data collection, purpose, minimization, retention, deletion, sharing, analytics, logs, and privacy controls.",
+    "output_artifact": "DATA_PRIVACY_REVIEW.md",
+    "size_bytes": 2475
+  },
+  {
+    "id": "natural-database-performance",
+    "legacy_filename": "NATURAL-DATABASE-PERFORMANCE-PROMPT.md",
+    "new_path": "natural/ops-performance/database-performance.md",
+    "domain": "natural",
+    "subcategory": "ops-performance",
+    "summary": "Audits database plans, indexes, transactions, locks, pools, replication, pagination, and data-distribution effects.",
+    "output_artifact": "DATABASE_PERFORMANCE_AUDIT.md",
+    "size_bytes": 2391
+  },
+  {
+    "id": "natural-dependency-graph-audit",
+    "legacy_filename": "NATURAL-DEPENDENCY-GRAPH-AUDIT-PROMPT.md",
+    "new_path": "natural/architecture-refactoring/dependency-graph-audit.md",
+    "domain": "natural",
+    "subcategory": "architecture-refactoring",
+    "summary": "Maps dependency cycles, coupling hubs, version skew, and ownership risks with an ordered remediation plan.",
+    "output_artifact": "DEPENDENCY_GRAPH_AUDIT.md",
+    "size_bytes": 2377
+  },
+  {
+    "id": "natural-dependency-security",
+    "legacy_filename": "NATURAL-DEPENDENCY-SECURITY-PROMPT.md",
+    "new_path": "natural/quality-security/dependency-security.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Audits direct and transitive dependencies for vulnerabilities, provenance, reachability, licensing, and safe upgrade paths.",
+    "output_artifact": "DEPENDENCY_SECURITY_AUDIT.md",
+    "size_bytes": 2544
+  },
+  {
+    "id": "natural-desktop-app",
+    "legacy_filename": "NATURAL-DESKTOP-APP-PROMPT.md",
+    "new_path": "natural/specialized-reviews/desktop-app.md",
+    "domain": "natural",
+    "subcategory": "specialized-reviews",
+    "summary": "Reviews desktop lifecycle, IPC, local data, embedded content, updates, packaging, signing, performance, and accessibility.",
+    "output_artifact": "DESKTOP_APPLICATION_REVIEW.md",
+    "size_bytes": 2521
+  },
+  {
+    "id": "natural-distributed-system",
+    "legacy_filename": "NATURAL-DISTRIBUTED-SYSTEM-PROMPT.md",
+    "new_path": "natural/specialized-reviews/distributed-system.md",
+    "domain": "natural",
+    "subcategory": "specialized-reviews",
+    "summary": "Reviews distributed-system guarantees across networks, replicas, clocks, partitions, coordination, deployments, and recovery.",
+    "output_artifact": "DISTRIBUTED_SYSTEM_REVIEW.md",
+    "size_bytes": 2497
+  },
+  {
+    "id": "natural-domain-modeling-review",
+    "legacy_filename": "NATURAL-DOMAIN-MODELING-REVIEW-PROMPT.md",
+    "new_path": "natural/architecture-refactoring/domain-modeling-review.md",
+    "domain": "natural",
+    "subcategory": "architecture-refactoring",
+    "summary": "Reviews business concepts, aggregates, invariants, terminology, and transaction boundaries for domain correctness.",
+    "output_artifact": "DOMAIN_MODEL_REVIEW.md",
+    "size_bytes": 2445
+  },
+  {
+    "id": "natural-event-driven-design",
+    "legacy_filename": "NATURAL-EVENT-DRIVEN-DESIGN-PROMPT.md",
+    "new_path": "natural/architecture-refactoring/event-driven-design.md",
+    "domain": "natural",
+    "subcategory": "architecture-refactoring",
+    "summary": "Reviews event-driven workflows for delivery guarantees, idempotency, schema evolution, replay, and failure recovery.",
+    "output_artifact": "EVENT_DRIVEN_DESIGN.md",
+    "size_bytes": 2445
+  },
+  {
+    "id": "natural-frontend-performance",
+    "legacy_filename": "NATURAL-FRONTEND-PERFORMANCE-PROMPT.md",
+    "new_path": "natural/ops-performance/frontend-performance.md",
+    "domain": "natural",
+    "subcategory": "ops-performance",
+    "summary": "Audits frontend loading, rendering, interaction latency, bundles, hydration, layout stability, and device/network performance.",
+    "output_artifact": "FRONTEND_PERFORMANCE_AUDIT.md",
+    "size_bytes": 2432
+  },
+  {
+    "id": "natural-game-dev",
+    "legacy_filename": "NATURAL-GAME-DEV-PROMPT.md",
+    "new_path": "natural/specialized-reviews/game-dev.md",
+    "domain": "natural",
+    "subcategory": "specialized-reviews",
+    "summary": "Gameplay code review for frame budgets, state determinism, async races, memory, and layer coupling.",
+    "output_artifact": "GAME_FEATURE_REVIEW.md",
+    "size_bytes": 2354
+  },
+  {
+    "id": "natural-improvement",
+    "legacy_filename": "NATURAL-IMPROVEMENT-PROMPT.md",
+    "new_path": "natural/architecture-refactoring/improvement.md",
+    "domain": "natural",
+    "subcategory": "architecture-refactoring",
+    "summary": "Proactive stabilization pass for real logic bugs, race conditions, stale state, silent failures, and null-data crashes.",
+    "output_artifact": "CODE_STABILIZATION_REPORT.md",
+    "size_bytes": 2305
+  },
+  {
+    "id": "natural-incident-readiness",
+    "legacy_filename": "NATURAL-INCIDENT-READINESS-PROMPT.md",
+    "new_path": "natural/quality-security/incident-readiness.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Reviews detection, escalation, runbooks, rollback, backups, failover, evidence preservation, and incident exercises.",
+    "output_artifact": "INCIDENT_READINESS_REVIEW.md",
+    "size_bytes": 2421
+  },
+  {
+    "id": "natural-input-validation-review",
+    "legacy_filename": "NATURAL-INPUT-VALIDATION-REVIEW-PROMPT.md",
+    "new_path": "natural/quality-security/input-validation-review.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Audits untrusted input schemas, normalization, limits, injection risk, parser behavior, authorization, and safe output handling.",
+    "output_artifact": "INPUT_VALIDATION_REVIEW.md",
+    "size_bytes": 2464
+  },
+  {
+    "id": "natural-interface-seam-audit",
+    "legacy_filename": "NATURAL-INTERFACE-SEAM-AUDIT-PROMPT.md",
+    "new_path": "natural/architecture-refactoring/interface-seam-audit.md",
+    "domain": "natural",
+    "subcategory": "architecture-refactoring",
+    "summary": "Audits interfaces, adapters, dependency injection, mocks, and lifecycle seams for leakage and test blind spots.",
+    "output_artifact": "INTERFACE_SEAM_AUDIT.md",
+    "size_bytes": 2411
+  },
+  {
+    "id": "natural-jupyter",
+    "legacy_filename": "NATURAL-JUPYTER-PROMPT.md",
+    "new_path": "natural/specialized-reviews/jupyter.md",
+    "domain": "natural",
+    "subcategory": "specialized-reviews",
+    "summary": "Notebook production-readiness review for clean execution, data efficiency, reproducibility, and model artifact safety.",
+    "output_artifact": "JUPYTER_PRODUCTION_REVIEW.md",
+    "size_bytes": 2554
+  },
+  {
+    "id": "natural-legacy-modernization",
+    "legacy_filename": "NATURAL-LEGACY-MODERNIZATION-PROMPT.md",
+    "new_path": "natural/architecture-refactoring/legacy-modernization.md",
+    "domain": "natural",
+    "subcategory": "architecture-refactoring",
+    "summary": "Builds an incremental modernization roadmap using characterization tests, seams, strangler boundaries, and retirement gates.",
+    "output_artifact": "LEGACY_MODERNIZATION_PLAN.md",
+    "size_bytes": 2388
+  },
+  {
+    "id": "natural-linux-sec",
+    "legacy_filename": "NATURAL-LINUX-SEC-PROMPT.md",
+    "new_path": "natural/quality-security/linux-sec.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Linux configuration and shell-script audit for privilege escalation, injection, unsafe permissions, isolation, and secrets.",
+    "output_artifact": "LINUX_SECURITY_AUDIT.md",
+    "size_bytes": 2511
+  },
+  {
+    "id": "natural-load-test-plan",
+    "legacy_filename": "NATURAL-LOAD-TEST-PLAN-PROMPT.md",
+    "new_path": "natural/ops-performance/load-test-plan.md",
+    "domain": "natural",
+    "subcategory": "ops-performance",
+    "summary": "Designs safe load, spike, stress, and soak tests with realistic workloads, observability, guardrails, and SLO criteria.",
+    "output_artifact": "LOAD_TEST_PLAN.md",
+    "size_bytes": 2431
+  },
+  {
+    "id": "natural-memory-leak",
+    "legacy_filename": "NATURAL-MEMORY-LEAK-PROMPT.md",
+    "new_path": "natural/ops-performance/memory-leak.md",
+    "domain": "natural",
+    "subcategory": "ops-performance",
+    "summary": "Investigates heap growth, retained object graphs, lifecycle cleanup, caches, native resources, and backpressure.",
+    "output_artifact": "MEMORY_LEAK_AUDIT.md",
+    "size_bytes": 2390
+  },
+  {
+    "id": "natural-ml-pipeline",
+    "legacy_filename": "NATURAL-ML-PIPELINE-PROMPT.md",
+    "new_path": "natural/specialized-reviews/ml-pipeline.md",
+    "domain": "natural",
+    "subcategory": "specialized-reviews",
+    "summary": "Reviews ML data lineage, leakage, reproducibility, training artifacts, serving parity, resource use, drift, and rollback.",
+    "output_artifact": "ML_PIPELINE_REVIEW.md",
+    "size_bytes": 2526
+  },
+  {
+    "id": "natural-mobile-app",
+    "legacy_filename": "NATURAL-MOBILE-APP-PROMPT.md",
+    "new_path": "natural/specialized-reviews/mobile-app.md",
+    "domain": "natural",
+    "subcategory": "specialized-reviews",
+    "summary": "Reviews mobile lifecycle, state restoration, offline behavior, startup, resources, permissions, privacy, accessibility, and release risk.",
+    "output_artifact": "MOBILE_APPLICATION_REVIEW.md",
+    "size_bytes": 2495
+  },
+  {
+    "id": "natural-modularize",
+    "legacy_filename": "NATURAL-MODULARIZE-PROMPT.md",
+    "new_path": "natural/architecture-refactoring/modularize.md",
+    "domain": "natural",
+    "subcategory": "architecture-refactoring",
+    "summary": "Behavioral-parity refactor that splits oversized files into cohesive modules and updates every call site.",
+    "output_artifact": "MODULARIZATION.md",
+    "size_bytes": 2508
+  },
+  {
+    "id": "natural-monolith-decomposition",
+    "legacy_filename": "NATURAL-MONOLITH-DECOMPOSITION-PROMPT.md",
+    "new_path": "natural/architecture-refactoring/monolith-decomposition.md",
+    "domain": "natural",
+    "subcategory": "architecture-refactoring",
+    "summary": "Identifies viable monolith boundaries and stages extractions while accounting for data, consistency, deployment, and failure costs.",
+    "output_artifact": "MONOLITH_DECOMPOSITION_PLAN.md",
+    "size_bytes": 2401
+  },
+  {
+    "id": "natural-observability-review",
+    "legacy_filename": "NATURAL-OBSERVABILITY-REVIEW-PROMPT.md",
+    "new_path": "natural/ops-performance/observability-review.md",
+    "domain": "natural",
+    "subcategory": "ops-performance",
+    "summary": "Audits metrics, logs, traces, SLO signals, alert quality, cardinality, cost, privacy, and incident diagnosability.",
+    "output_artifact": "OBSERVABILITY_REVIEW.md",
+    "size_bytes": 2440
+  },
+  {
+    "id": "natural-performance",
+    "legacy_filename": "NATURAL-PERFORMANCE-PROMPT.md",
+    "new_path": "natural/ops-performance/performance.md",
+    "domain": "natural",
+    "subcategory": "ops-performance",
+    "summary": "Measurement-driven audit of hot paths, queries, I/O, rendering, payloads, memory, and cache invalidation.",
+    "output_artifact": "PERFORMANCE_AUDIT.md",
+    "size_bytes": 2516
+  },
+  {
+    "id": "natural-rag-system",
+    "legacy_filename": "NATURAL-RAG-SYSTEM-PROMPT.md",
+    "new_path": "natural/specialized-reviews/rag-system.md",
+    "domain": "natural",
+    "subcategory": "specialized-reviews",
+    "summary": "Reviews RAG ingestion, retrieval, reranking, context budgets, authorization, groundedness, freshness, latency, and cost.",
+    "output_artifact": "RAG_SYSTEM_REVIEW.md",
+    "size_bytes": 2562
+  },
+  {
+    "id": "natural-realtime-system",
+    "legacy_filename": "NATURAL-REALTIME-SYSTEM-PROMPT.md",
+    "new_path": "natural/specialized-reviews/realtime-system.md",
+    "domain": "natural",
+    "subcategory": "specialized-reviews",
+    "summary": "Reviews real-time connection lifecycle, delivery, ordering, resume, authorization, backpressure, fan-out, and resync.",
+    "output_artifact": "REALTIME_SYSTEM_REVIEW.md",
+    "size_bytes": 2467
+  },
+  {
+    "id": "natural-release",
+    "legacy_filename": "NATURAL-RELEASE-PROMPT.md",
+    "new_path": "natural/ops-performance/release.md",
+    "domain": "natural",
+    "subcategory": "ops-performance",
+    "summary": "Production-readiness sweep for TODOs, stubs, mock data, broken routes, environment gaps, dependencies, builds, and tests.",
+    "output_artifact": "RELEASE_READINESS.md",
+    "size_bytes": 2733
+  },
+  {
+    "id": "natural-resilience-review",
+    "legacy_filename": "NATURAL-RESILIENCE-REVIEW-PROMPT.md",
+    "new_path": "natural/ops-performance/resilience-review.md",
+    "domain": "natural",
+    "subcategory": "ops-performance",
+    "summary": "Reviews failure handling, retries, timeouts, overload, degradation, restart behavior, recovery, and fault-test coverage.",
+    "output_artifact": "RESILIENCE_REVIEW.md",
+    "size_bytes": 2390
+  },
+  {
+    "id": "natural-resource-efficiency",
+    "legacy_filename": "NATURAL-RESOURCE-EFFICIENCY-PROMPT.md",
+    "new_path": "natural/ops-performance/resource-efficiency.md",
+    "domain": "natural",
+    "subcategory": "ops-performance",
+    "summary": "Finds durable compute, storage, network, scheduling, and capacity waste while protecting reliability and compliance.",
+    "output_artifact": "RESOURCE_EFFICIENCY_AUDIT.md",
+    "size_bytes": 2448
+  },
+  {
+    "id": "natural-secrets-audit",
+    "legacy_filename": "NATURAL-SECRETS-AUDIT-PROMPT.md",
+    "new_path": "natural/quality-security/secrets-audit.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Finds exposed credentials and sensitive configuration across code, history, CI, artifacts, logs, and runtime environments.",
+    "output_artifact": "SECRETS_EXPOSURE_AUDIT.md",
+    "size_bytes": 2501
+  },
+  {
+    "id": "natural-serverless",
+    "legacy_filename": "NATURAL-SERVERLESS-PROMPT.md",
+    "new_path": "natural/specialized-reviews/serverless.md",
+    "domain": "natural",
+    "subcategory": "specialized-reviews",
+    "summary": "Reviews serverless invocation, retries, concurrency, cold starts, state, permissions, event contracts, cost, and observability.",
+    "output_artifact": "SERVERLESS_APPLICATION_REVIEW.md",
+    "size_bytes": 2504
+  },
+  {
+    "id": "natural-state-machine-review",
+    "legacy_filename": "NATURAL-STATE-MACHINE-REVIEW-PROMPT.md",
+    "new_path": "natural/architecture-refactoring/state-machine-review.md",
+    "domain": "natural",
+    "subcategory": "architecture-refactoring",
+    "summary": "Extracts and tests application state machines for invalid transitions, races, cancellation, persistence, and recovery gaps.",
+    "output_artifact": "STATE_MACHINE_REVIEW.md",
+    "size_bytes": 2343
+  },
+  {
+    "id": "natural-supply-chain-review",
+    "legacy_filename": "NATURAL-SUPPLY-CHAIN-REVIEW-PROMPT.md",
+    "new_path": "natural/quality-security/supply-chain-review.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Reviews source, CI, dependencies, builders, artifacts, registries, signing, provenance, and deployment permissions.",
+    "output_artifact": "SUPPLY_CHAIN_REVIEW.md",
+    "size_bytes": 2432
+  },
+  {
+    "id": "natural-testability-refactor",
+    "legacy_filename": "NATURAL-TESTABILITY-REFACTOR-PROMPT.md",
+    "new_path": "natural/architecture-refactoring/testability-refactor.md",
+    "domain": "natural",
+    "subcategory": "architecture-refactoring",
+    "summary": "Adds minimal deterministic seams and behavioral tests around risky code without changing production semantics.",
+    "output_artifact": "TESTABILITY_REFACTOR.md",
+    "size_bytes": 2389
+  },
+  {
+    "id": "natural-threat-model",
+    "legacy_filename": "NATURAL-THREAT-MODEL-PROMPT.md",
+    "new_path": "natural/quality-security/threat-model.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Builds a system-specific threat model with assets, trust boundaries, STRIDE threats, abuse cases, mitigations, and residual risk.",
+    "output_artifact": "THREAT_MODEL_REVIEW.md",
+    "size_bytes": 2500
+  },
+  {
+    "id": "natural-webapp",
+    "legacy_filename": "NATURAL-WEBAPP-PROMPT.md",
+    "new_path": "natural/quality-security/webapp.md",
+    "domain": "natural",
+    "subcategory": "quality-security",
+    "summary": "Full-stack web application review covering frontend UX, backend/API integrity, state, authentication, and performance.",
+    "output_artifact": "WEBAPP_REVIEW.md",
+    "size_bytes": 2382
+  },
+  {
+    "id": "natural-webhook-integration",
+    "legacy_filename": "NATURAL-WEBHOOK-INTEGRATION-PROMPT.md",
+    "new_path": "natural/specialized-reviews/webhook-integration.md",
+    "domain": "natural",
+    "subcategory": "specialized-reviews",
+    "summary": "Reviews webhook authenticity, schema validation, retries, duplicates, ordering, durable receipt, replay, and side effects.",
+    "output_artifact": "WEBHOOK_INTEGRATION_REVIEW.md",
+    "size_bytes": 2532
+  },
+  {
     "id": "observability",
     "legacy_filename": "OBSERVABILITY-PROMPT.md",
     "new_path": "software-engineering/ops-performance/observability.md",

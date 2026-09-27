@@ -1,6 +1,6 @@
 # 📚 Shed Prompts: Modular Prompt Architecture Library
 
-Welcome to **Shed Prompts**. This collection provides 193 battle-tested, high-precision system prompts categorized into modular domain hierarchies: **Android Engineering**, **General Software Engineering**, **Data & Analytics**, **Dark Fantasy RPG Worldbuilding**, **Autobiography & Memoir Co-Creation**, **Accelerated Learning & Pedagogical Architecture**, **Product Leadership & Venture Architecture**, **Legal Tech, Regulatory Compliance & IP Audit**, **Local Safetensor Model Fine-Tuning**, **Custom AI Architecture & LLM Engineering**, **Open-Weight Music & Audio Generation**, **Open-Weight Local Image Generation**, **Open-Weight Local Video Generation**, **Game Development & Interactive Systems**, and **DevOps, Cloud Infrastructure & SRE, and Scientific Method, Research & Academic Publishing**.
+Welcome to **Shed Prompts**. This collection provides 245 battle-tested, high-precision system prompts categorized into modular domain hierarchies: **Android Engineering**, **General Software Engineering**, **Natural Language Engineering**, **Data & Analytics**, **Dark Fantasy RPG Worldbuilding**, **Autobiography & Memoir Co-Creation**, **Accelerated Learning & Pedagogical Architecture**, **Product Leadership & Venture Architecture**, **Legal Tech, Regulatory Compliance & IP Audit**, **Local Safetensor Model Fine-Tuning**, **Custom AI Architecture & LLM Engineering**, **Open-Weight Music & Audio Generation**, **Open-Weight Local Image Generation**, **Open-Weight Local Video Generation**, **Game Development & Interactive Systems**, and **DevOps, Cloud Infrastructure & SRE, and Scientific Method, Research & Academic Publishing**.
 
 Each prompt is designed to act as an autonomous agentic persona with strict `<system_instructions>`, workflow constraints, and deterministic `<output_format>` requirements.
 
@@ -21,6 +21,7 @@ Each prompt is designed to act as an autonomous agentic persona with strict `<sy
   - [⚙️ Safetensor Local Model Fine-Tuning (10 Prompts)](#safetensor-local-model-fine-tuning-10-prompts)
   - [🧠 Custom AI Architecture & LLM Engineering (10 Prompts)](#custom-ai-architecture-llm-engineering-10-prompts)
   - [🎵 Open-Weight Music & Audio Generation (8 Prompts)](#open-weight-music-audio-generation-8-prompts)
+  - [🧩 Natural Language Engineering (52 Prompts)](#natural-language-engineering-52-prompts)
   - [🎨 Open-Weight Local Image Generation (7 Prompts)](#open-weight-local-image-generation-7-prompts)
   - [🎬 Open-Weight Local Video Generation (7 Prompts)](#open-weight-local-video-generation-7-prompts)
   - [💡 Product Leadership & Venture Architecture (13 Prompts)](#product-leadership-venture-architecture-13-prompts)
@@ -208,6 +209,64 @@ shed-prompts/
 │       ├── music-structure-sectioner.md
 │       ├── musicgen-pipeline.md
 │       └── stable-audio-pipeline.md
+├── 🧩 natural/
+│   ├── README.md                   # Category overview & pipeline guide
+│   ├── architecture-refactoring/
+│   │   ├── api-contract-migration.md
+│   │   ├── architecture-boundary-audit.md
+│   │   ├── dependency-graph-audit.md
+│   │   ├── domain-modeling-review.md
+│   │   ├── event-driven-design.md
+│   │   ├── improvement.md
+│   │   ├── interface-seam-audit.md
+│   │   ├── legacy-modernization.md
+│   │   ├── modularize.md
+│   │   ├── monolith-decomposition.md
+│   │   ├── state-machine-review.md
+│   │   └── testability-refactor.md
+│   ├── quality-security/
+│   │   ├── accessibility-review.md
+│   │   ├── api-security-review.md
+│   │   ├── audit.md
+│   │   ├── auth-authorization-review.md
+│   │   ├── code-review.md
+│   │   ├── data-privacy-review.md
+│   │   ├── dependency-security.md
+│   │   ├── incident-readiness.md
+│   │   ├── input-validation-review.md
+│   │   ├── linux-sec.md
+│   │   ├── secrets-audit.md
+│   │   ├── supply-chain-review.md
+│   │   ├── threat-model.md
+│   │   └── webapp.md
+│   ├── ops-performance/
+│   │   ├── api-latency.md
+│   │   ├── build-performance.md
+│   │   ├── cache-strategy.md
+│   │   ├── database-performance.md
+│   │   ├── frontend-performance.md
+│   │   ├── load-test-plan.md
+│   │   ├── memory-leak.md
+│   │   ├── observability-review.md
+│   │   ├── performance.md
+│   │   ├── release.md
+│   │   ├── resilience-review.md
+│   │   └── resource-efficiency.md
+│   └── specialized-reviews/
+│       ├── aichat-app.md
+│       ├── browser-extension.md
+│       ├── cli-tool.md
+│       ├── data-pipeline.md
+│       ├── desktop-app.md
+│       ├── distributed-system.md
+│       ├── game-dev.md
+│       ├── jupyter.md
+│       ├── ml-pipeline.md
+│       ├── mobile-app.md
+│       ├── rag-system.md
+│       ├── realtime-system.md
+│       ├── serverless.md
+│       └── webhook-integration.md
 ├── 🎓 pedagogy-learning/
 │   ├── README.md                   # Category overview & pipeline guide
 │   ├── curriculum-design/
@@ -557,6 +616,67 @@ shed-prompts/
 [⬆ Back to Top](#top)
 
 ---
+### 🧩 Natural Language Engineering (52 Prompts)
+| Prompt ID | Relative Path | Target Artifact | Short Description |
+|---|---|---|---|
+| `natural-accessibility-review` | [`natural/quality-security/accessibility-review.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/accessibility-review.md) | `ACCESSIBILITY_REVIEW.md` | Reviews semantics, keyboard access, focus, assistive technology behavior, forms, motion, contrast, and recovery. |
+| `natural-aichat-app` | [`natural/specialized-reviews/aichat-app.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/specialized-reviews/aichat-app.md) | `AI_CHAT_APP_AUDIT.md` | LLM/chat application audit for streaming latency, RAG context, model resilience, prompt injection, and output safety. |
+| `natural-api-contract-migration` | [`natural/architecture-refactoring/api-contract-migration.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/architecture-refactoring/api-contract-migration.md) | `API_CONTRACT_MIGRATION.md` | Plans additive or breaking API and event contract migrations with consumer mapping, rollout sequencing, and rollback safety. |
+| `natural-api-latency` | [`natural/ops-performance/api-latency.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/ops-performance/api-latency.md) | `API_LATENCY_AUDIT.md` | Measures API latency and tail behavior across queues, code, dependencies, serialization, retries, and connection pools. |
+| `natural-api-security-review` | [`natural/quality-security/api-security-review.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/api-security-review.md) | `API_SECURITY_REVIEW.md` | Reviews API routes for authorization, validation, data exposure, abuse, rate control, replay, webhooks, and resource exhaustion. |
+| `natural-architecture-boundary-audit` | [`natural/architecture-refactoring/architecture-boundary-audit.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/architecture-refactoring/architecture-boundary-audit.md) | `ARCHITECTURE_BOUNDARY_AUDIT.md` | Audits module and service boundaries, hidden coupling, dependency direction, and incremental refactoring risk. |
+| `natural-audit` | [`natural/quality-security/audit.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/audit.md) | `CODEBASE_AUDIT.md` | Read-only audit of real bugs, correctness risks, crashes, silent failures, waste, and dead code. |
+| `natural-auth-authorization-review` | [`natural/quality-security/auth-authorization-review.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/auth-authorization-review.md) | `AUTH_AUTHORIZATION_REVIEW.md` | Audits authentication, sessions, authorization, tenant isolation, tokens, administrative actions, and access-control tests. |
+| `natural-browser-extension` | [`natural/specialized-reviews/browser-extension.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/specialized-reviews/browser-extension.md) | `BROWSER_EXTENSION_REVIEW.md` | Reviews browser extension permissions, contexts, messaging, storage, DOM access, lifecycle, and cross-browser behavior. |
+| `natural-build-performance` | [`natural/ops-performance/build-performance.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/ops-performance/build-performance.md) | `BUILD_PERFORMANCE_AUDIT.md` | Profiles clean and incremental builds, critical paths, cache invalidation, CI variance, and reproducibility risks. |
+| `natural-cache-strategy` | [`natural/ops-performance/cache-strategy.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/ops-performance/cache-strategy.md) | `CACHE_STRATEGY_REVIEW.md` | Reviews cache keys, scope, TTL, invalidation, stampede control, privacy boundaries, and correctness under failure. |
+| `natural-cli-tool` | [`natural/specialized-reviews/cli-tool.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/specialized-reviews/cli-tool.md) | `CLI_TOOL_REVIEW.md` | Reviews CLI contracts, argument parsing, exit codes, streams, signals, filesystem safety, automation, and discoverability. |
+| `natural-code-review` | [`natural/quality-security/code-review.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/code-review.md) | `N/A` | Strict pull-request review focused on changed-code correctness, blast radius, regressions, tests, and safety. |
+| `natural-data-pipeline` | [`natural/specialized-reviews/data-pipeline.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/specialized-reviews/data-pipeline.md) | `DATA_PIPELINE_REVIEW.md` | Reviews data contracts, quality, idempotency, checkpoints, late data, retries, backfills, lineage, and privacy. |
+| `natural-data-privacy-review` | [`natural/quality-security/data-privacy-review.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/data-privacy-review.md) | `DATA_PRIVACY_REVIEW.md` | Reviews data collection, purpose, minimization, retention, deletion, sharing, analytics, logs, and privacy controls. |
+| `natural-database-performance` | [`natural/ops-performance/database-performance.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/ops-performance/database-performance.md) | `DATABASE_PERFORMANCE_AUDIT.md` | Audits database plans, indexes, transactions, locks, pools, replication, pagination, and data-distribution effects. |
+| `natural-dependency-graph-audit` | [`natural/architecture-refactoring/dependency-graph-audit.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/architecture-refactoring/dependency-graph-audit.md) | `DEPENDENCY_GRAPH_AUDIT.md` | Maps dependency cycles, coupling hubs, version skew, and ownership risks with an ordered remediation plan. |
+| `natural-dependency-security` | [`natural/quality-security/dependency-security.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/dependency-security.md) | `DEPENDENCY_SECURITY_AUDIT.md` | Audits direct and transitive dependencies for vulnerabilities, provenance, reachability, licensing, and safe upgrade paths. |
+| `natural-desktop-app` | [`natural/specialized-reviews/desktop-app.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/specialized-reviews/desktop-app.md) | `DESKTOP_APPLICATION_REVIEW.md` | Reviews desktop lifecycle, IPC, local data, embedded content, updates, packaging, signing, performance, and accessibility. |
+| `natural-distributed-system` | [`natural/specialized-reviews/distributed-system.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/specialized-reviews/distributed-system.md) | `DISTRIBUTED_SYSTEM_REVIEW.md` | Reviews distributed-system guarantees across networks, replicas, clocks, partitions, coordination, deployments, and recovery. |
+| `natural-domain-modeling-review` | [`natural/architecture-refactoring/domain-modeling-review.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/architecture-refactoring/domain-modeling-review.md) | `DOMAIN_MODEL_REVIEW.md` | Reviews business concepts, aggregates, invariants, terminology, and transaction boundaries for domain correctness. |
+| `natural-event-driven-design` | [`natural/architecture-refactoring/event-driven-design.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/architecture-refactoring/event-driven-design.md) | `EVENT_DRIVEN_DESIGN.md` | Reviews event-driven workflows for delivery guarantees, idempotency, schema evolution, replay, and failure recovery. |
+| `natural-frontend-performance` | [`natural/ops-performance/frontend-performance.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/ops-performance/frontend-performance.md) | `FRONTEND_PERFORMANCE_AUDIT.md` | Audits frontend loading, rendering, interaction latency, bundles, hydration, layout stability, and device/network performance. |
+| `natural-game-dev` | [`natural/specialized-reviews/game-dev.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/specialized-reviews/game-dev.md) | `GAME_FEATURE_REVIEW.md` | Gameplay code review for frame budgets, state determinism, async races, memory, and layer coupling. |
+| `natural-improvement` | [`natural/architecture-refactoring/improvement.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/architecture-refactoring/improvement.md) | `CODE_STABILIZATION_REPORT.md` | Proactive stabilization pass for real logic bugs, race conditions, stale state, silent failures, and null-data crashes. |
+| `natural-incident-readiness` | [`natural/quality-security/incident-readiness.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/incident-readiness.md) | `INCIDENT_READINESS_REVIEW.md` | Reviews detection, escalation, runbooks, rollback, backups, failover, evidence preservation, and incident exercises. |
+| `natural-input-validation-review` | [`natural/quality-security/input-validation-review.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/input-validation-review.md) | `INPUT_VALIDATION_REVIEW.md` | Audits untrusted input schemas, normalization, limits, injection risk, parser behavior, authorization, and safe output handling. |
+| `natural-interface-seam-audit` | [`natural/architecture-refactoring/interface-seam-audit.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/architecture-refactoring/interface-seam-audit.md) | `INTERFACE_SEAM_AUDIT.md` | Audits interfaces, adapters, dependency injection, mocks, and lifecycle seams for leakage and test blind spots. |
+| `natural-jupyter` | [`natural/specialized-reviews/jupyter.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/specialized-reviews/jupyter.md) | `JUPYTER_PRODUCTION_REVIEW.md` | Notebook production-readiness review for clean execution, data efficiency, reproducibility, and model artifact safety. |
+| `natural-legacy-modernization` | [`natural/architecture-refactoring/legacy-modernization.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/architecture-refactoring/legacy-modernization.md) | `LEGACY_MODERNIZATION_PLAN.md` | Builds an incremental modernization roadmap using characterization tests, seams, strangler boundaries, and retirement gates. |
+| `natural-linux-sec` | [`natural/quality-security/linux-sec.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/linux-sec.md) | `LINUX_SECURITY_AUDIT.md` | Linux configuration and shell-script audit for privilege escalation, injection, unsafe permissions, isolation, and secrets. |
+| `natural-load-test-plan` | [`natural/ops-performance/load-test-plan.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/ops-performance/load-test-plan.md) | `LOAD_TEST_PLAN.md` | Designs safe load, spike, stress, and soak tests with realistic workloads, observability, guardrails, and SLO criteria. |
+| `natural-memory-leak` | [`natural/ops-performance/memory-leak.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/ops-performance/memory-leak.md) | `MEMORY_LEAK_AUDIT.md` | Investigates heap growth, retained object graphs, lifecycle cleanup, caches, native resources, and backpressure. |
+| `natural-ml-pipeline` | [`natural/specialized-reviews/ml-pipeline.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/specialized-reviews/ml-pipeline.md) | `ML_PIPELINE_REVIEW.md` | Reviews ML data lineage, leakage, reproducibility, training artifacts, serving parity, resource use, drift, and rollback. |
+| `natural-mobile-app` | [`natural/specialized-reviews/mobile-app.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/specialized-reviews/mobile-app.md) | `MOBILE_APPLICATION_REVIEW.md` | Reviews mobile lifecycle, state restoration, offline behavior, startup, resources, permissions, privacy, accessibility, and release risk. |
+| `natural-modularize` | [`natural/architecture-refactoring/modularize.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/architecture-refactoring/modularize.md) | `MODULARIZATION.md` | Behavioral-parity refactor that splits oversized files into cohesive modules and updates every call site. |
+| `natural-monolith-decomposition` | [`natural/architecture-refactoring/monolith-decomposition.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/architecture-refactoring/monolith-decomposition.md) | `MONOLITH_DECOMPOSITION_PLAN.md` | Identifies viable monolith boundaries and stages extractions while accounting for data, consistency, deployment, and failure costs. |
+| `natural-observability-review` | [`natural/ops-performance/observability-review.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/ops-performance/observability-review.md) | `OBSERVABILITY_REVIEW.md` | Audits metrics, logs, traces, SLO signals, alert quality, cardinality, cost, privacy, and incident diagnosability. |
+| `natural-performance` | [`natural/ops-performance/performance.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/ops-performance/performance.md) | `PERFORMANCE_AUDIT.md` | Measurement-driven audit of hot paths, queries, I/O, rendering, payloads, memory, and cache invalidation. |
+| `natural-rag-system` | [`natural/specialized-reviews/rag-system.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/specialized-reviews/rag-system.md) | `RAG_SYSTEM_REVIEW.md` | Reviews RAG ingestion, retrieval, reranking, context budgets, authorization, groundedness, freshness, latency, and cost. |
+| `natural-realtime-system` | [`natural/specialized-reviews/realtime-system.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/specialized-reviews/realtime-system.md) | `REALTIME_SYSTEM_REVIEW.md` | Reviews real-time connection lifecycle, delivery, ordering, resume, authorization, backpressure, fan-out, and resync. |
+| `natural-release` | [`natural/ops-performance/release.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/ops-performance/release.md) | `RELEASE_READINESS.md` | Production-readiness sweep for TODOs, stubs, mock data, broken routes, environment gaps, dependencies, builds, and tests. |
+| `natural-resilience-review` | [`natural/ops-performance/resilience-review.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/ops-performance/resilience-review.md) | `RESILIENCE_REVIEW.md` | Reviews failure handling, retries, timeouts, overload, degradation, restart behavior, recovery, and fault-test coverage. |
+| `natural-resource-efficiency` | [`natural/ops-performance/resource-efficiency.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/ops-performance/resource-efficiency.md) | `RESOURCE_EFFICIENCY_AUDIT.md` | Finds durable compute, storage, network, scheduling, and capacity waste while protecting reliability and compliance. |
+| `natural-secrets-audit` | [`natural/quality-security/secrets-audit.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/secrets-audit.md) | `SECRETS_EXPOSURE_AUDIT.md` | Finds exposed credentials and sensitive configuration across code, history, CI, artifacts, logs, and runtime environments. |
+| `natural-serverless` | [`natural/specialized-reviews/serverless.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/specialized-reviews/serverless.md) | `SERVERLESS_APPLICATION_REVIEW.md` | Reviews serverless invocation, retries, concurrency, cold starts, state, permissions, event contracts, cost, and observability. |
+| `natural-state-machine-review` | [`natural/architecture-refactoring/state-machine-review.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/architecture-refactoring/state-machine-review.md) | `STATE_MACHINE_REVIEW.md` | Extracts and tests application state machines for invalid transitions, races, cancellation, persistence, and recovery gaps. |
+| `natural-supply-chain-review` | [`natural/quality-security/supply-chain-review.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/supply-chain-review.md) | `SUPPLY_CHAIN_REVIEW.md` | Reviews source, CI, dependencies, builders, artifacts, registries, signing, provenance, and deployment permissions. |
+| `natural-testability-refactor` | [`natural/architecture-refactoring/testability-refactor.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/architecture-refactoring/testability-refactor.md) | `TESTABILITY_REFACTOR.md` | Adds minimal deterministic seams and behavioral tests around risky code without changing production semantics. |
+| `natural-threat-model` | [`natural/quality-security/threat-model.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/threat-model.md) | `THREAT_MODEL_REVIEW.md` | Builds a system-specific threat model with assets, trust boundaries, STRIDE threats, abuse cases, mitigations, and residual risk. |
+| `natural-webapp` | [`natural/quality-security/webapp.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/quality-security/webapp.md) | `WEBAPP_REVIEW.md` | Full-stack web application review covering frontend UX, backend/API integrity, state, authentication, and performance. |
+| `natural-webhook-integration` | [`natural/specialized-reviews/webhook-integration.md`](file:///home/sysadmin/Downloads/shed-prompts/natural/specialized-reviews/webhook-integration.md) | `WEBHOOK_INTEGRATION_REVIEW.md` | Reviews webhook authenticity, schema validation, retries, duplicates, ordering, durable receipt, replay, and side effects. |
+
+---
+
+[⬆ Back to Top](#top)
+
+---
 ### 🎨 Open-Weight Local Image Generation (7 Prompts)
 | Prompt ID | Relative Path | Target Artifact | Short Description |
 |---|---|---|---|
@@ -664,7 +784,7 @@ shed-prompts/
 ## 🛠️ CLI Utilities & Tooling
 
 ### 1. Validate Prompt Suite
-Verify all 193 prompts exist and conform to XML tag specifications:
+Verify all 245 prompts exist and conform to XML tag specifications:
 ```bash
 python3 validate_prompts.py
 ```
