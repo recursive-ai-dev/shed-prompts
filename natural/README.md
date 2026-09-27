@@ -1,6 +1,6 @@
 # 🧩 Natural Language Engineering Prompts
 
-This module contains a large, direct-use suite of natural-language prompts for autonomous codebase work. The prompts are organized by engineering activity: architecture and refactoring, quality and security, operations and performance, and focused reviews for specific platforms and system shapes. Every prompt is self-contained and includes a workflow, constraints, and deterministic output contract.
+This module contains a direct-use suite of plain-language prompts for autonomous codebase work. Each prompt reads like a clear request to an experienced engineering partner: it explains the goal, what to examine, a practical approach, important guardrails, and the shape of the response. The prompts are organized by engineering activity: architecture and refactoring, quality and security, operations and performance, and focused reviews for specific platforms and system shapes.
 
 ---
 
