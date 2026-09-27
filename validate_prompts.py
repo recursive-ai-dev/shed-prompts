@@ -38,14 +38,21 @@ def validate():
         with open(path, "r", encoding="utf-8") as f:
             content = f.read()
 
-        # Check required tags
-        if "<system_instructions>" not in content or "</system_instructions>" not in content:
-            print(f"⚠️ [{prompt_id}] Missing <system_instructions> tag in {path}")
-            warnings += 1
+        # Natural prompts intentionally use readable Markdown sections instead of
+        # XML wrappers. Keep the legacy tag checks for the other prompt families.
+        is_plain_language_prompt = path.replace(os.sep, "/").startswith("natural/")
+        if is_plain_language_prompt:
+            if not content.lstrip() or "## Response format" not in content:
+                print(f"⚠️ [{prompt_id}] Missing plain-language prompt sections in {path}")
+                warnings += 1
+        else:
+            if "<system_instructions>" not in content or "</system_instructions>" not in content:
+                print(f"⚠️ [{prompt_id}] Missing <system_instructions> tag in {path}")
+                warnings += 1
 
-        if "<output_format>" not in content and "<required_structure>" not in content:
-            print(f"⚠️ [{prompt_id}] Missing <output_format> or <required_structure> tag in {path}")
-            warnings += 1
+            if "<output_format>" not in content and "<required_structure>" not in content:
+                print(f"⚠️ [{prompt_id}] Missing <output_format> or <required_structure> tag in {path}")
+                warnings += 1
 
         # Verify non-empty
         if len(content.strip()) == 0:
