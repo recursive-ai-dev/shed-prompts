@@ -31,6 +31,3 @@ List each command run, its result, and the relevant scope.
 
 ## Deferred Risks
 Include only high-confidence issues that could not be safely fixed, with the reason and containment step.
-
-## What I need from you
-Provide a repository, file set, or type "generate" to scan the current codebase
